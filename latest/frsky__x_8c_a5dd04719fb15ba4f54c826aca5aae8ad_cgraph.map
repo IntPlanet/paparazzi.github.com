@@ -1,0 +1,4 @@
+<map id="frsky_x_serial_put_buffer" name="frsky_x_serial_put_buffer">
+<area shape="rect" id="node2" href="$frsky__x_8c.html#adfc11fb9defc0b2418edb24b1fa921cf" title="frsky_x_serial_put_byte" alt="" coords="188,13,359,39"/>
+<area shape="rect" id="node3" href="$frsky__x_8c.html#ae3001fd8504f8ad30ee40a958da7bf0c" title="fifo_put" alt="" coords="407,13,476,39"/>
+</map>

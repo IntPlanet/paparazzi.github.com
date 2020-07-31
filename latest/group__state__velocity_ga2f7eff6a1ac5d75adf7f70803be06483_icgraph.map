@@ -1,5 +1,5 @@
 <map id="stateCalcSpeedEnu_f" name="stateCalcSpeedEnu_f">
-<area shape="rect" id="node2" href="$group__state__velocity.html#ga8e7f86fe83bd1b767f9c5016ed245822" title="Get ground speed in local ENU coordinates (float). " alt="" coords="212,553,367,580"/>
+<area shape="rect" id="node2" href="$group__state__velocity.html#ga8e7f86fe83bd1b767f9c5016ed245822" title="Get ground speed in local ENU coordinates (float). " alt="" coords="212,579,367,605"/>
 <area shape="rect" id="node3" href="$fixedwing_2autopilot__firmware_8c.html#ae015b1759bb416ee56b7a3a403b12985" title="send_estimator" alt="" coords="461,56,584,83"/>
 <area shape="rect" id="node9" href="$energy__ctrl_8c.html#a1fca0891379c02432d10e73daef730d3" title="ac_char_update" alt="" coords="461,107,585,133"/>
 <area shape="rect" id="node10" href="$guidance__common_8h.html#a38f0bbceda8812281fc650c2c1aac6c8" title="Auto&#45;throttle inner loop. " alt="" coords="707,157,833,184"/>
@@ -20,6 +20,7 @@
 <area shape="rect" id="node44" href="$potential_8h.html#a2ecae8ed4b80ccfece655453a56db7cd" title="potential_task" alt="" coords="467,964,579,991"/>
 <area shape="rect" id="node45" href="$tcas_8h.html#adb2f00821358ed6ad0f366e6a2422558" title="tcas_periodic_task_1Hz" alt="" coords="437,1015,609,1041"/>
 <area shape="rect" id="node46" href="$nav__rover__base_8c.html#ac1382cbcc0f52b6f9e2387e53105be7d" title="nav_approaching" alt="" coords="457,1065,588,1092"/>
+<area shape="rect" id="node49" href="$cc2500__compat_8h.html#acd79985136a05b258fa9585116a23f3c" title="bf_getEstimatedVario" alt="" coords="443,1116,602,1143"/>
 <area shape="rect" id="node4" href="$rover_2autopilot__firmware_8h.html#a2bb31e995242a89c837b4eda1d08fe57" title="Init function. " alt="" coords="687,56,853,83"/>
 <area shape="rect" id="node5" href="$autopilot_8h.html#a9d3557653abfc3d4c428724b249f6d5e" title="Autopilot initialization function. " alt="" coords="933,56,1037,83"/>
 <area shape="rect" id="node6" href="$fixedwing_2main__ap_8h.html#a0913f0248fbbe56a5ec65e10e36c9f30" title="init_ap" alt="" coords="1165,5,1229,32"/>

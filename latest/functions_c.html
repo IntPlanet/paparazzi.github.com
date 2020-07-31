@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -482,6 +482,12 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>channel_idx
 : <a class="el" href="subsystems_2datalink_2superbitrf_8h.html#a43e36e7561dc919d6f3e4032fee8e193">SuperbitRF</a>
 </li>
+<li>channelCount
+: <a class="el" href="cc2500__rx_8h.html#a7419eea42c3c89338f73490757f00f2a">rxRuntimeConfig_s</a>
+</li>
+<li>channelData
+: <a class="el" href="cc2500__rx_8h.html#aefb73fac3483ad3de8a6474fc0d8a3d3">rxRuntimeConfig_s</a>
+</li>
 <li>channels
 : <a class="el" href="linux_2mcu__periph_2adc__arch_8h.html#a599edf2721d48a6f6227d93d2dd75e63">adc_t</a>
 , <a class="el" href="subsystems_2datalink_2superbitrf_8h.html#a0d7a20ea2884c12b57799cb2194bbb91">SuperbitRF</a>
@@ -504,6 +510,9 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>checksum_errors
 : <a class="el" href="navdata_8h.html#ad4723b02ef4d82cb0e164220def6448a">navdata_t</a>
+</li>
+<li>chipDetectEnabled
+: <a class="el" href="cc2500__settings_8h.html#acc5203a15f7133e0bcedb4e29b3d3531">rxCc2500SpiConfig_s</a>
 </li>
 <li>chksm
 : <a class="el" href="ahrs__gx3_8h.html#ae0156d87c7734b1a00c0d3a9610ea3eb">AhrsGX3</a>
@@ -806,7 +815,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="l3gd20__spi_8h.html#aa50b7c629972b0971d6b4096fdac442c">L3gd20_Spi</a>
 , <a class="el" href="lis302dl__spi_8h.html#aa81037d166efd26a319348f8f41f669c">Lis302dl_Spi</a>
 , <a class="el" href="lps25h__i2c_8h.html#ae2454aba91551b505e34f870253eaa25">Lps25h_I2c</a>
-, <a class="el" href="lsm303dlhc__i2c_8h.html#af0eef4a1f2a07360f7e00971c5872dd7">Lsm303dlhc_i2c</a>
+, <a class="el" href="lsm303dlhc__i2c_8h.html#a67dc8251b3703b9d516cb54986cdfb0f">Lsm303dlhc_i2c</a>
 , <a class="el" href="lsm6ds33__i2c_8h.html#a5ee1aaf09889205b87a09afc46e5c397">Lsm6_I2c</a>
 , <a class="el" href="mpu60x0__i2c_8h.html#ac45f59044e30e1a4ee17083ba692fba0">Mpu60x0_I2c</a>
 , <a class="el" href="mpu60x0__spi_8h.html#a312df0b73091e56a69d246626955974a">Mpu60x0_Spi</a>
@@ -995,6 +1004,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="px4__flash_2protocol_8h.html#af856646ceb9df0f094d8a26287189fcf">IOPacket</a>
 , <a class="el" href="logger__uart_8h.html#a848638d196f70ba074f9b548a772eb95">logger_uart_data_struct</a>
 , <a class="el" href="rtcm3_8h.html#ae8cf87c90033c42f007e426972d812f5">msg_state_t</a>
+, <a class="el" href="cc2500__frsky__x_8c.html#af053636f95daea0ae70f8acdcf21e7d2">telemetryPayload_s</a>
 </li>
 <li>Crc105
 : <a class="el" href="gps_8h.html#a65cd647ec71c018db01d700fb36efe8c">RtcmMan</a>
@@ -1090,12 +1100,16 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="modules_2actuators_2actuators__md25_8h.html#a6ab684f2d9652da209fd04e46bede551">ActuatorsMD25</a>
 , <a class="el" href="electrical_8h.html#a66c55cf656b8005e05d38b78e8a88065">Electrical</a>
 , <a class="el" href="hott__eam_8h.html#a7e3515754ef9f0d8277d6e0d1d6a7fb0">HOTT_EAM_MSG</a>
+, <a class="el" href="ctrl__windtunnel_8h.html#ad88051419f969ddeb9b3a9dfb010128e">min_max_ctrl_t</a>
 </li>
 <li>current_airspeed
 : <a class="el" href="meteo__stick_8h.html#aed350ca6638272d533afef6cc3614b07">MeteoStick</a>
 </li>
 <li>current_block
 : <a class="el" href="mission__manager_8h.html#ace15d0486fb51f4c5638ca5c07acbb61">mavlink_mission_mgr</a>
+</li>
+<li>current_frequency_hz
+: <a class="el" href="pprz__chirp_8h.html#a2b84e8fd8ec58e39944ef84fa933f72d">chirp_t</a>
 </li>
 <li>current_H
 : <a class="el" href="hott__gam_8h.html#a2b24b07cffa6fddd7404a9ec22c3eaeb">HOTT_GAM_MSG</a>
@@ -1117,6 +1131,12 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>current_temperature
 : <a class="el" href="meteo__stick_8h.html#a84b90fb9f263e982669a1320d7777b87">MeteoStick</a>
+</li>
+<li>current_time_s
+: <a class="el" href="pprz__chirp_8h.html#aacc51ad05d26c2413e8fd6f29e70a32a">chirp_t</a>
+</li>
+<li>current_value
+: <a class="el" href="pprz__chirp_8h.html#af07766a806492f200d9ba39b3ffe177e">chirp_t</a>
 </li>
 <li>CurrentLimit
 : <a class="el" href="config__mkk__v2_8h.html#a472e5a7c6cccf9815d5bd94695cabb49">config_mkk_v2_eeprom_t</a>
@@ -1145,7 +1165,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 15 2020 04:04:08 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:04:14 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

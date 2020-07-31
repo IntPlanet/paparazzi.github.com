@@ -46,6 +46,6 @@
 <area shape="rect" id="node46" href="$subsystems_2datalink_2superbitrf_8h.html" title="sw/airborne/subsystems\l/datalink/superbitrf.h" alt="" coords="8113,206,8289,247"/>
 <area shape="rect" id="node47" href="$w5100_8c.html" title="W5100 ethernet chip I/O. " alt="" coords="8313,206,8489,247"/>
 <area shape="rect" id="node48" href="$imu__aspirin__i2c_8c.html" title="sw/airborne/subsystems\l/imu/imu_aspirin_i2c.c" alt="" coords="8513,206,8689,247"/>
-<area shape="rect" id="node49" href="$hott__common_8h.html" title="Common hott structs and defines. " alt="" coords="8713,206,8928,247"/>
-<area shape="rect" id="node50" href="$sbus__common_8h.html" title="Common sbus structs and defines. " alt="" coords="8953,206,9171,247"/>
+<area shape="rect" id="node49" href="$cc2500__compat_8c.html" title="sw/airborne/subsystems\l/radio_control/cc2500\l_frsky/cc2500_compat.c" alt="" coords="8713,199,8889,255"/>
+<area shape="rect" id="node50" href="$cc2500__settings_8c.html" title="sw/airborne/subsystems\l/radio_control/cc2500\l_frsky/cc2500_settings.c" alt="" coords="8913,199,9091,255"/>
 </map>

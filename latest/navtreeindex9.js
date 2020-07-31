@@ -247,7 +247,7 @@ var NAVTREEINDEX9 =
 "airborne__ant__track_8c_source.html":[12,0,0,0,6,4,0],
 "airborne__ant__track_8h.html":[12,0,0,0,6,4,1],
 "airborne__ant__track_8h_source.html":[12,0,0,0,6,4,1],
-"airspeed__adc_8c.html":[12,0,0,0,6,56,1],
-"airspeed__adc_8c.html#a0c50f7780f41aabb9259ba3afd33357e":[12,0,0,0,6,56,1,4],
-"airspeed__adc_8c.html#a5d4e0cd55e47c1b7572c5907d8e17da9":[12,0,0,0,6,56,1,5]
+"airspeed__adc_8c.html":[12,0,0,0,6,57,1],
+"airspeed__adc_8c.html#a0c50f7780f41aabb9259ba3afd33357e":[12,0,0,0,6,57,1,4],
+"airspeed__adc_8c.html#a5d4e0cd55e47c1b7572c5907d8e17da9":[12,0,0,0,6,57,1,5]
 };

@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -178,7 +178,12 @@ $(document).ready(function(){initNavTree('functions_vars_p.html','');});
 , <a class="el" href="stabilization__attitude__common__int_8h.html#ad199610cbcc6aab8f6782bc22794d89e">Int32AttitudeGains</a>
 , <a class="el" href="group__math__algebra__int.html#a34093c15eec29e77b8cc0102f6d216dd">Int32Rates</a>
 , <a class="el" href="group__math__algebra__int.html#ad21d711fd40730ea136ebe9d7bd56b66">Int64Rates</a>
-, <a class="el" href="rover__guidance_8h.html#ae70ae393b4d4922ce09db4a492a1b396">RoverGuidancePID</a>
+</li>
+<li>P
+: <a class="el" href="cc2500__compat_8h.html#a0b4b0887df26c3e6c0b43ccd24d6b1b4">pidGains_s</a>
+</li>
+<li>p
+: <a class="el" href="rover__guidance_8h.html#ae70ae393b4d4922ce09db4a492a1b396">RoverGuidancePID</a>
 , <a class="el" href="rover__guidance__holonomic_8h.html#ad9ef746befd8e0422cc92a3776d95e79">RoverHoloGuidancePID</a>
 , <a class="el" href="lpcSCB_8h.html#a0756f546d86d95faece1523fd6b8772a">scbRegs_t</a>
 </li>
@@ -214,6 +219,12 @@ $(document).ready(function(){initNavTree('functions_vars_p.html','');});
 </li>
 <li>packet_loss_bit
 : <a class="el" href="subsystems_2datalink_2superbitrf_8h.html#aa30c4bc76bb00b6523edb38f3d3ce62d">SuperbitRF</a>
+</li>
+<li>packetConst
+: <a class="el" href="cc2500__frsky__x_8c.html#ad207b1c9252fa5f1b2be26c451cd76e3">telemetryPayload_s</a>
+</li>
+<li>packetSequenceId
+: <a class="el" href="cc2500__frsky__x_8c.html#ab43ecab9b295083b383c53eecb0be764">telemetrySequenceMarkerData_s</a>
 </li>
 <li>packetsRead
 : <a class="el" href="navdata_8h.html#a69b4678d274a36e307b95cb49a785542">navdata_t</a>
@@ -352,6 +363,9 @@ $(document).ready(function(){initNavTree('functions_vars_p.html','');});
 <li>pedestal
 : <a class="el" href="libisp_8h.html#ad3f506579ebe7fe0a9ef66afa5703fb3">libisp_config</a>
 </li>
+<li>percentage_done
+: <a class="el" href="pprz__chirp_8h.html#a2bffcb6f77c275330fd5fe4677a8db45">chirp_t</a>
+</li>
 <li>period
 : <a class="el" href="vi__test__signal_8h.html#afd5e1105c20108debed35f364310e287">BoozFmsTestSignal</a>
 </li>
@@ -434,14 +448,20 @@ $(document).ready(function(){initNavTree('functions_vars_p.html','');});
 : <a class="el" href="optical__flow__functions_8h.html#a3f0d00f17ef5cc410889f46bdabce575">OpticalFlowHoverControl</a>
 </li>
 <li>pid
-: <a class="el" href="shift__tracking_8c.html#ab42d99c47eb42a7a4db87786277a3cf7">shift_tracking_private</a>
+: <a class="el" href="cc2500__compat_8h.html#a882da18634b1487cc9168679cd6fc8e2">pidProfile_s</a>
+, <a class="el" href="shift__tracking_8c.html#ab42d99c47eb42a7a4db87786277a3cf7">shift_tracking_private</a>
+</li>
+<li>pidValuesAsTelemetry
+: <a class="el" href="cc2500__settings_8h.html#a5236d8c87f81aa7b4c12b6d957f42d4e">telemetryConfig_s</a>
 </li>
 <li>pin
 : <a class="el" href="gpio__ardrone_8c.html#a1bc9d423219ebf62774476242acee215">gpio_data</a>
 , <a class="el" href="gpio__ardrone_8c.html#a27bcb021564d77173d1dfa52ae9c79fb">gpio_direction</a>
+, <a class="el" href="cc2500__compat_8h.html#a81b512abbf1064c216dbf8bab6d2e3e5">gpio_t</a>
 </li>
 <li>pitch
-: <a class="el" href="crtp_8h.html#a9301877ff3dc6db818ebea7d6bb0b6b7">crtp_commander</a>
+: <a class="el" href="cc2500__compat_8h.html#ae8d338b3c1dad19306b0a60077f85403">attitude_values_t</a>
+, <a class="el" href="crtp_8h.html#a9301877ff3dc6db818ebea7d6bb0b6b7">crtp_commander</a>
 , <a class="el" href="infrared_8h.html#ae86ecec8d0eda43d29fd65efba9bbc69">Infrared</a>
 , <a class="el" href="joystick_8h.html#a8d9fa8066faf2a00111d1d755ad77039">Joystick</a>
 , <a class="el" href="nps__radio__control__joystick_8h.html#a8f83a4340cfd747583bc781f9da36af9">NpsJoystick</a>
@@ -500,6 +520,9 @@ $(document).ready(function(){initNavTree('functions_vars_p.html','');});
 : <a class="el" href="nav__survey__polygon__gvf_8h.html#aaaf3204073948c7e1503423d22036280">gvf_SurveyPolyAdv</a>
 , <a class="el" href="nav__survey__polygon_8h.html#ae256f36c36e871cc4773c9ac8845e90b">SurveyPolyAdv</a>
 </li>
+<li>port
+: <a class="el" href="cc2500__compat_8h.html#a4a0d7040511af6f310d03579bdfc9617">gpio_t</a>
+</li>
 <li>port_id
 : <a class="el" href="gps__ubx__ucenter_8h.html#affa2a0b27d127c7662214c9c0c506770">gps_ubx_ucenter_struct</a>
 </li>
@@ -530,6 +553,12 @@ $(document).ready(function(){initNavTree('functions_vars_p.html','');});
 </li>
 <li>pos_ev
 : <a class="el" href="shift__tracking_8c.html#ac74e4ebc878e7a64e1ba0d5598b1c5ee">shift_tracking_private</a>
+</li>
+<li>pos_gain
+: <a class="el" href="guidance__indi__hybrid_8h.html#a78de0db7bd0d4a2daa638181c7f0d3ec">guidance_indi_hybrid_params</a>
+</li>
+<li>pos_gainz
+: <a class="el" href="guidance__indi__hybrid_8h.html#a145c18215ca9665c9a2de1233e3733ab">guidance_indi_hybrid_params</a>
 </li>
 <li>pos_gps
 : <a class="el" href="ins__float__invariant_8h.html#ad6a395ad3805de36d785ab753d5df461">inv_measures</a>
@@ -762,7 +791,7 @@ $(document).ready(function(){initNavTree('functions_vars_p.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 15 2020 04:04:08 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:04:14 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

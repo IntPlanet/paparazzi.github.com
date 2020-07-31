@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -194,7 +194,7 @@ Variables</h2></td></tr>
 <tr class="separator:ac2fc0752f9ac5d1c38f991acadda7726"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f129766a0e204df3a617dee55a770c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="types_8h.html#a269259c924dce846340ddbb810db2e3c">int16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="orange__avoider_8c.html#a6f129766a0e204df3a617dee55a770c7">obstacle_free_confidence</a> = 0</td></tr>
 <tr class="separator:a6f129766a0e204df3a617dee55a770c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dcb255e37ff019a3d236d91ad996803"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="orange__avoider_8c.html#a3dcb255e37ff019a3d236d91ad996803">heading_increment</a> = 5.f</td></tr>
+<tr class="memitem:a3dcb255e37ff019a3d236d91ad996803"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="orange__avoider_8c.html#a3dcb255e37ff019a3d236d91ad996803">heading_increment</a> = 5.<a class="el" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a></td></tr>
 <tr class="separator:a3dcb255e37ff019a3d236d91ad996803"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af22920f041b5db58118ffb07b37e9a25"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="orange__avoider_8c.html#af22920f041b5db58118ffb07b37e9a25">maxDistance</a> = 2.25</td></tr>
 <tr class="separator:af22920f041b5db58118ffb07b37e9a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,7 +371,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00189">189</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>References <a class="el" href="ahrs__infrared_8c_source.html#l00045">heading</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00216">POS_BFP_OF_REAL</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00217">POS_FLOAT_OF_BFP</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00087">FloatEulers::psi</a>, <a class="el" href="state_8h_source.html#l01143">stateGetNedToBodyEulers_f()</a>, <a class="el" href="state_8h_source.html#l00719">stateGetPositionEnu_f()</a>, <a class="el" href="state_8h_source.html#l00674">stateGetPositionEnu_i()</a>, <a class="el" href="orange__avoider_8c_source.html#l00037">VERBOSE_PRINT</a>, <a class="el" href="pprz__geodetic__int_8h_source.html#l00078">EnuCoor_i::x</a>, and <a class="el" href="pprz__geodetic__int_8h_source.html#l00079">EnuCoor_i::y</a>.</p>
+<p>References <a class="el" href="wedgebug_8c_source.html#l00258">heading</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00216">POS_BFP_OF_REAL</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00217">POS_FLOAT_OF_BFP</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00087">FloatEulers::psi</a>, <a class="el" href="state_8h_source.html#l01143">stateGetNedToBodyEulers_f()</a>, <a class="el" href="state_8h_source.html#l00719">stateGetPositionEnu_f()</a>, <a class="el" href="state_8h_source.html#l00674">stateGetPositionEnu_i()</a>, <a class="el" href="orange__avoider_8c_source.html#l00037">VERBOSE_PRINT</a>, <a class="el" href="pprz__geodetic__int_8h_source.html#l00078">EnuCoor_i::x</a>, and <a class="el" href="pprz__geodetic__int_8h_source.html#l00079">EnuCoor_i::y</a>.</p>
 
 <p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00216">moveWaypointForward()</a>.</p>
 
@@ -529,7 +529,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00172">172</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>References <a class="el" href="pprz__algebra__int_8h_source.html#l00210">ANGLE_BFP_OF_REAL</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00099">FLOAT_ANGLE_NORMALIZE</a>, <a class="el" href="rotorcraft_2navigation_8c_source.html#l00104">nav_heading</a>, <a class="el" href="guidance__OA_8c_source.html#l00114">new_heading</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00087">FloatEulers::psi</a>, <a class="el" href="state_8h_source.html#l01143">stateGetNedToBodyEulers_f()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00037">VERBOSE_PRINT</a>.</p>
+<p>References <a class="el" href="pprz__algebra__int_8h_source.html#l00210">ANGLE_BFP_OF_REAL</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00099">FLOAT_ANGLE_NORMALIZE</a>, <a class="el" href="rotorcraft_2navigation_8c_source.html#l00108">nav_heading</a>, <a class="el" href="guidance__OA_8c_source.html#l00114">new_heading</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00087">FloatEulers::psi</a>, <a class="el" href="state_8h_source.html#l01143">stateGetNedToBodyEulers_f()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00037">VERBOSE_PRINT</a>.</p>
 
 <p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00092">orange_avoider_periodic()</a>.</p>
 
@@ -712,7 +712,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00092">92</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>References <a class="el" href="autopilot_8c_source.html#l00257">autopilot_in_flight()</a>, <a class="el" href="orange__avoider_8c_source.html#l00227">chooseRandomIncrementAvoidance()</a>, <a class="el" href="orange__avoider_8c_source.html#l00057">color_count</a>, <a class="el" href="mt9f002__nps_8c_source.html#l00003">front_camera</a>, <a class="el" href="orange__avoider_8c_source.html#l00059">heading_increment</a>, <a class="el" href="orange__avoider_8c_source.html#l00172">increase_nav_heading()</a>, <a class="el" href="orange__avoider_8c_source.html#l00062">max_trajectory_confidence</a>, <a class="el" href="orange__avoider_8c_source.html#l00060">maxDistance</a>, <a class="el" href="orange__avoider_8c_source.html#l00216">moveWaypointForward()</a>, <a class="el" href="orange__avoider_8c_source.html#l00056">navigation_state</a>, <a class="el" href="orange__avoider_8c_source.html#l00053">oa_color_count_frac</a>, <a class="el" href="orange__avoider_8c_source.html#l00047">OBSTACLE_FOUND</a>, <a class="el" href="orange__avoider_8c_source.html#l00058">obstacle_free_confidence</a>, <a class="el" href="orange__avoider_8c_source.html#l00049">OUT_OF_BOUNDS</a>, <a class="el" href="orange__avoider_8c_source.html#l00046">SAFE</a>, <a class="el" href="orange__avoider_8c_source.html#l00048">SEARCH_FOR_SAFE_HEADING</a>, <a class="el" href="orange__avoider_8c_source.html#l00037">VERBOSE_PRINT</a>, <a class="el" href="subsystems_2navigation_2waypoints_8c_source.html#l00246">waypoint_move_here_2d()</a>, <a class="el" href="common__nav_8h_source.html#l00045">WaypointX</a>, and <a class="el" href="common__nav_8h_source.html#l00046">WaypointY</a>.</p>
+<p>References <a class="el" href="autopilot_8c_source.html#l00257">autopilot_in_flight()</a>, <a class="el" href="orange__avoider_8c_source.html#l00227">chooseRandomIncrementAvoidance()</a>, <a class="el" href="orange__avoider_8c_source.html#l00057">color_count</a>, <a class="el" href="wedgebug_8c_source.html#l00204">f</a>, <a class="el" href="mt9f002__nps_8c_source.html#l00003">front_camera</a>, <a class="el" href="orange__avoider_8c_source.html#l00059">heading_increment</a>, <a class="el" href="orange__avoider_8c_source.html#l00172">increase_nav_heading()</a>, <a class="el" href="orange__avoider_8c_source.html#l00062">max_trajectory_confidence</a>, <a class="el" href="orange__avoider_8c_source.html#l00060">maxDistance</a>, <a class="el" href="orange__avoider_8c_source.html#l00216">moveWaypointForward()</a>, <a class="el" href="orange__avoider_8c_source.html#l00053">oa_color_count_frac</a>, <a class="el" href="orange__avoider_8c_source.html#l00047">OBSTACLE_FOUND</a>, <a class="el" href="orange__avoider_8c_source.html#l00058">obstacle_free_confidence</a>, <a class="el" href="orange__avoider_8c_source.html#l00049">OUT_OF_BOUNDS</a>, <a class="el" href="orange__avoider_8c_source.html#l00046">SAFE</a>, <a class="el" href="orange__avoider_8c_source.html#l00048">SEARCH_FOR_SAFE_HEADING</a>, <a class="el" href="orange__avoider_8c_source.html#l00037">VERBOSE_PRINT</a>, <a class="el" href="subsystems_2navigation_2waypoints_8c_source.html#l00246">waypoint_move_here_2d()</a>, <a class="el" href="common__nav_8h_source.html#l00045">WaypointX</a>, and <a class="el" href="common__nav_8h_source.html#l00046">WaypointY</a>.</p>
 
 <p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -771,7 +771,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float heading_increment = 5.f</td>
+          <td class="memname">float heading_increment = 5.<a class="el" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -819,14 +819,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="orange__avoider_8c.html#ad710ff56d81a195834d8503cc2a7aab3">navigation_state_t</a> navigation_state = <a class="el" href="orange__avoider__guided_8c.html#ad710ff56d81a195834d8503cc2a7aab3abb87c653f25e38f517aabf9d64c5aaf1">SEARCH_FOR_SAFE_HEADING</a></td>
+          <td class="memname">enum <a class="el" href="orange__avoider_8c.html#ad710ff56d81a195834d8503cc2a7aab3">navigation_state_t</a> <a class="el" href="wedgebug_8c.html#a17e419311a44de1996fd19462767ff73">navigation_state</a> = <a class="el" href="orange__avoider__guided_8c.html#ad710ff56d81a195834d8503cc2a7aab3abb87c653f25e38f517aabf9d64c5aaf1">SEARCH_FOR_SAFE_HEADING</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00056">56</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
-
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00092">orange_avoider_periodic()</a>.</p>
 
 </div>
 </div>
@@ -868,7 +866,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_c2abcdd6ccb39c3582929c0e3f5651c2.html">modules</a></li><li class="navelem"><a class="el" href="dir_183f1dc71a771a05a9ab5222da140bc3.html">orange_avoider</a></li><li class="navelem"><a class="el" href="orange__avoider_8c.html">orange_avoider.c</a></li>
-    <li class="footer">Generated on Fri May 15 2020 04:03:22 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:03:25 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

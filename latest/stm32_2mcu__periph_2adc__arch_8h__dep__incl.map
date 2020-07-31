@@ -1,5 +1,5 @@
 <map id="sw/airborne/arch/stm32/mcu_periph/adc_arch.h" name="sw/airborne/arch/stm32/mcu_periph/adc_arch.h">
-<area shape="rect" id="node2" href="$adc_8h.html" title="arch independent ADC (Analog to Digital Converter) API " alt="" coords="2088,95,2263,136"/>
+<area shape="rect" id="node2" href="$adc_8h.html" title="arch independent ADC (Analog to Digital Converter) API " alt="" coords="2177,95,2352,136"/>
 <area shape="rect" id="node3" href="$chibios_2mcu__periph_2adc__arch_8c.html" title="ADC driver. " alt="" coords="5,191,180,233"/>
 <area shape="rect" id="node4" href="$linux_2mcu__periph_2adc__arch_8c.html" title="Driver for the analog to digital converters in Linux based systems. " alt="" coords="204,191,379,233"/>
 <area shape="rect" id="node5" href="$lpc21_2mcu__periph_2adc__arch_8c.html" title="Handling of ADC hardware for lpc21xx. " alt="" coords="403,191,577,233"/>
@@ -22,7 +22,8 @@
 <area shape="rect" id="node24" href="$sonar__bebop_8c.html" title="Parrot Bebop Sonar driver. " alt="" coords="3597,191,3757,233"/>
 <area shape="rect" id="node25" href="$electrical_8c.html" title="Implemnetation for electrical status: supply voltage, current, battery status, etc. " alt="" coords="3781,191,3957,233"/>
 <area shape="rect" id="node26" href="$imu__analog_8c.html" title="sw/airborne/subsystems\l/imu/imu_analog.c" alt="" coords="3981,191,4157,233"/>
-<area shape="rect" id="node27" href="$infrared__adc_8c.html" title="Regroup all functions link to ADC ir. " alt="" coords="4181,191,4357,233"/>
+<area shape="rect" id="node27" href="$cc2500__compat_8c.html" title="sw/airborne/subsystems\l/radio_control/cc2500\l_frsky/cc2500_compat.c" alt="" coords="4181,184,4357,240"/>
+<area shape="rect" id="node28" href="$infrared__adc_8c.html" title="Regroup all functions link to ADC ir. " alt="" coords="4381,191,4557,233"/>
 <area shape="rect" id="node11" href="$vms__ecu__demo_8c.html" title="Viking Motorsports Engine Control Unit demo module see https://wiki.paparazziuav.org/wiki/VMS_ECU for..." alt="" coords="1349,288,1516,344"/>
 <area shape="rect" id="node21" href="$aoa__adc_8c.html" title="Angle of Attack sensor on ADC Autor: Bruzzlee. " alt="" coords="3061,295,3215,337"/>
 </map>

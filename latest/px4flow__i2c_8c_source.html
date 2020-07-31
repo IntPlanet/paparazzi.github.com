@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -192,10 +192,10 @@ $(document).ready(function(){initNavTree('px4flow__i2c_8c_source.html','');});
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                                time_usec,</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                flow_comp_m_y,</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                                flow_comp_m_x,</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                0.0f,</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                0.0<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a>,</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                                noise,</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                noise,</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                -1.f);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                -1.<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a>);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <span class="comment">// distance is always positive - use median filter to remove outliers</span></div>
@@ -427,6 +427,7 @@ $(document).ready(function(){initNavTree('px4flow__i2c_8c_source.html','');});
 <div class="ttc" id="types_8h_html_a06896e8c53f721507066c079052171f8"><div class="ttname"><a href="types_8h.html#a06896e8c53f721507066c079052171f8">uint32_t</a></div><div class="ttdeci">unsigned long uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00018">types.h:18</a></div></div>
 <div class="ttc" id="types_8h_html_a269259c924dce846340ddbb810db2e3c"><div class="ttname"><a href="types_8h.html#a269259c924dce846340ddbb810db2e3c">int16_t</a></div><div class="ttdeci">signed short int16_t</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00017">types.h:17</a></div></div>
 <div class="ttc" id="px4flow__i2c_8h_html_a2d35c2e402a8c2676e4347a887e4db81"><div class="ttname"><a href="px4flow__i2c_8h.html#a2d35c2e402a8c2676e4347a887e4db81">px4flow_i2c_frame::frame_count</a></div><div class="ttdeci">uint16_t frame_count</div><div class="ttdef"><b>Definition:</b> <a href="px4flow__i2c_8h_source.html#l00046">px4flow_i2c.h:46</a></div></div>
+<div class="ttc" id="wedgebug_8c_html_a05fd2dba3354a98f1a00b7c7ffc12b13"><div class="ttname"><a href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a></div><div class="ttdeci">uint16_t f</div><div class="ttdoc">Camera baseline, in meters (i.e. horizontal distance between the two cameras of the stereo setup) ...</div><div class="ttdef"><b>Definition:</b> <a href="wedgebug_8c_source.html#l00204">wedgebug.c:204</a></div></div>
 <div class="ttc" id="px4flow__i2c_8h_html_a6ad223457199252a1eb842f2313be53a"><div class="ttname"><a href="px4flow__i2c_8h.html#a6ad223457199252a1eb842f2313be53a">px4flow_data::status</a></div><div class="ttdeci">enum Px4FlowStatus status</div><div class="ttdef"><b>Definition:</b> <a href="px4flow__i2c_8h_source.html#l00082">px4flow_i2c.h:82</a></div></div>
 <div class="ttc" id="px4flow__i2c_8c_html_ab3c4dd56cd6886f4fa2743557c99cc16"><div class="ttname"><a href="px4flow__i2c_8c.html#ab3c4dd56cd6886f4fa2743557c99cc16">px4flow</a></div><div class="ttdeci">struct px4flow_data px4flow</div><div class="ttdef"><b>Definition:</b> <a href="px4flow__i2c_8c_source.html#l00052">px4flow_i2c.c:52</a></div></div>
 <div class="ttc" id="group__i2c_html_gafb731922c9fb73255aa4cc11e34bfbd6"><div class="ttname"><a href="group__i2c.html#gafb731922c9fb73255aa4cc11e34bfbd6">i2c_transceive</a></div><div class="ttdeci">bool i2c_transceive(struct i2c_periph *p, struct i2c_transaction *t, uint8_t s_addr, uint8_t len_w, uint16_t len_r)</div><div class="ttdoc">Submit a write/read transaction. </div><div class="ttdef"><b>Definition:</b> <a href="i2c_8c_source.html#l00344">i2c.c:344</a></div></div>
@@ -470,7 +471,7 @@ $(document).ready(function(){initNavTree('px4flow__i2c_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_c2abcdd6ccb39c3582929c0e3f5651c2.html">modules</a></li><li class="navelem"><a class="el" href="dir_f52ac0bf93f8ebf53ea13ad6120e8a63.html">optical_flow</a></li><li class="navelem"><a class="el" href="px4flow__i2c_8c.html">px4flow_i2c.c</a></li>
-    <li class="footer">Generated on Fri May 15 2020 04:02:28 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:02:31 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

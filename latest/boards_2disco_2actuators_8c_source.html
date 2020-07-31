@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -211,7 +211,7 @@ $(document).ready(function(){initNavTree('boards_2disco_2actuators_8c_source.htm
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">#pragma GCC diagnostic pop</span></div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  <span class="comment">// Update status</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <a class="code" href="electrical_8c.html#a935f74638cd658e7dac75915bcb63bde">electrical</a>.<a class="code" href="electrical_8h.html#ad5e535e39613e6ec89d498019ef62030">vsupply</a> = (float)(be16toh(<a class="code" href="boards_2disco_2actuators_8c.html#a5745d25d53f3624956015ed3e4c0e7c7">obs_data</a>.<a class="code" href="boards_2disco_2actuators_8c.html#a82947fce08afb0ee61304e3c9ab25f15">batt_mv</a>)) / 1000.f;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <a class="code" href="electrical_8c.html#a935f74638cd658e7dac75915bcb63bde">electrical</a>.<a class="code" href="electrical_8h.html#ad5e535e39613e6ec89d498019ef62030">vsupply</a> = (float)(be16toh(<a class="code" href="boards_2disco_2actuators_8c.html#a5745d25d53f3624956015ed3e4c0e7c7">obs_data</a>.<a class="code" href="boards_2disco_2actuators_8c.html#a82947fce08afb0ee61304e3c9ab25f15">batt_mv</a>)) / 1000.<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a>;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="comment">// extract &#39;rpm saturation bit&#39;</span></div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  <a class="code" href="boards_2disco_2actuators_8c.html#aa93674169d4a6af97c20ae397c55793c">actuators_disco</a>.<a class="code" href="boards_2disco_2actuators_8h.html#a362dede7a998a87af1b76d94f11beeeb">rpm_saturated</a> = (<a class="code" href="boards_2disco_2actuators_8c.html#a5745d25d53f3624956015ed3e4c0e7c7">obs_data</a>.<a class="code" href="boards_2disco_2actuators_8c.html#aeedfacb37877836574584889e5724010">rpm</a> &amp; (1 &lt;&lt; 7)) ? <span class="keyword">true</span> : <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="comment">// clear &#39;rpm saturation bit&#39; and fix endianess</span></div>
@@ -303,6 +303,7 @@ $(document).ready(function(){initNavTree('boards_2disco_2actuators_8c_source.htm
 <div class="ttc" id="boards_2disco_2actuators_8h_html_a9310159cc7e973ebc815d93759b4fbe5"><div class="ttname"><a href="boards_2disco_2actuators_8h.html#a9310159cc7e973ebc815d93759b4fbe5">ActuatorsDisco::motor_rpm</a></div><div class="ttdeci">uint16_t motor_rpm</div><div class="ttdoc">Motor RPM setpoint. </div><div class="ttdef"><b>Definition:</b> <a href="boards_2disco_2actuators_8h_source.html#l00056">actuators.h:56</a></div></div>
 <div class="ttc" id="boards_2disco_2actuators_8c_html_aeedfacb37877836574584889e5724010"><div class="ttname"><a href="boards_2disco_2actuators_8c.html#aeedfacb37877836574584889e5724010">disco_bldc_obs::rpm</a></div><div class="ttdeci">uint16_t rpm</div><div class="ttdef"><b>Definition:</b> <a href="boards_2disco_2actuators_8c_source.html#l00047">actuators.c:47</a></div></div>
 <div class="ttc" id="boards_2disco_2actuators_8c_html_a6f547b958ab0d06e660bf2a30a4b7b50"><div class="ttname"><a href="boards_2disco_2actuators_8c.html#a6f547b958ab0d06e660bf2a30a4b7b50">DISCO_BLDC_STATUS_RAMPUP</a></div><div class="ttdeci">#define DISCO_BLDC_STATUS_RAMPUP</div><div class="ttdef"><b>Definition:</b> <a href="boards_2disco_2actuators_8c_source.html#l00072">actuators.c:72</a></div></div>
+<div class="ttc" id="wedgebug_8c_html_a05fd2dba3354a98f1a00b7c7ffc12b13"><div class="ttname"><a href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a></div><div class="ttdeci">uint16_t f</div><div class="ttdoc">Camera baseline, in meters (i.e. horizontal distance between the two cameras of the stereo setup) ...</div><div class="ttdef"><b>Definition:</b> <a href="wedgebug_8c_source.html#l00204">wedgebug.c:204</a></div></div>
 <div class="ttc" id="boards_2disco_2actuators_8h_html_a4e14ff5a103522e4237c14c5003ff25f"><div class="ttname"><a href="boards_2disco_2actuators_8h.html#a4e14ff5a103522e4237c14c5003ff25f">ACTUATORS_DISCO_SET_REF_SPEED</a></div><div class="ttdeci">#define ACTUATORS_DISCO_SET_REF_SPEED</div><div class="ttdoc">Set reference speed. </div><div class="ttdef"><b>Definition:</b> <a href="boards_2disco_2actuators_8h_source.html#l00041">actuators.h:41</a></div></div>
 <div class="ttc" id="group__i2c_html_ac4f80563bab524eee997c5c27ef570a4"><div class="ttname"><a href="group__i2c.html#ac4f80563bab524eee997c5c27ef570a4">i2c_transaction::status</a></div><div class="ttdeci">enum I2CTransactionStatus status</div><div class="ttdoc">Transaction status. </div><div class="ttdef"><b>Definition:</b> <a href="i2c_8h_source.html#l00126">i2c.h:126</a></div></div>
 <div class="ttc" id="boards_2disco_2actuators_8c_html_ae7f7db15e6ce95dfaee72acf95d2b660"><div class="ttname"><a href="boards_2disco_2actuators_8c.html#ae7f7db15e6ce95dfaee72acf95d2b660">disco_channels</a></div><div class="ttdeci">static uint8_t disco_channels[]</div><div class="ttdoc">Internal mapping of the PWM with output index servo rail 1 <-> linux pwm_4 servo rail 2 <-> linux pwm...</div><div class="ttdef"><b>Definition:</b> <a href="boards_2disco_2actuators_8c_source.html#l00069">actuators.c:69</a></div></div>
@@ -332,7 +333,7 @@ $(document).ready(function(){initNavTree('boards_2disco_2actuators_8c_source.htm
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_e030268cd18297cf6282390f76bfcf7f.html">boards</a></li><li class="navelem"><a class="el" href="dir_cbcb990d5f2f1cb4eb127eac39be5277.html">disco</a></li><li class="navelem"><a class="el" href="boards_2disco_2actuators_8c.html">actuators.c</a></li>
-    <li class="footer">Generated on Fri May 15 2020 04:02:11 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:02:13 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

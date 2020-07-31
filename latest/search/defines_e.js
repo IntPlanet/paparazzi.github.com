@@ -148,6 +148,8 @@ var searchData=
   ['no_5fconf_5fword',['NO_CONF_WORD',['../infrared__i2c_8c.html#ad644a43f424142bebc17bb8ddea9599a',1,'infrared_i2c.c']]],
   ['noack',['noACK',['../humid__sht_8c.html#a608ff686c5fbdfd9631fc11c57cee9a8',1,'humid_sht.c']]],
   ['noise_5ffilter_5fgain',['NOISE_FILTER_GAIN',['../ahrs__int__cmpl__euler_8c.html#af92e9c251ae0de76dc97d0d2ef3d5fe6',1,'ahrs_int_cmpl_euler.c']]],
+  ['non_5faux_5fchannel_5fcount',['NON_AUX_CHANNEL_COUNT',['../cc2500__rx_8h.html#afac38e8eaf7d8e854096e97e3df395bf',1,'cc2500_rx.h']]],
+  ['nop',['NOP',['../cc2500_8c.html#a700f88377bf36711b711f69b06c52f5d',1,'cc2500.c']]],
   ['norm2pi',['Norm2Pi',['../nav__smooth_8c.html#a9d26b9a8d6e9b268e247f2d601b450c8',1,'nav_smooth.c']]],
   ['normanglerad',['NormAngleRad',['../stereo__avoid__sim_8c.html#aa8a30b33178414e6d1c8d872781cb7b5',1,'stereo_avoid_sim.c']]],
   ['normcourse',['NormCourse',['../nav_8h.html#a397bca15d146964a80f93abd74763384',1,'NormCourse():&#160;nav.h'],['../rotorcraft_2navigation_8h.html#a397bca15d146964a80f93abd74763384',1,'NormCourse():&#160;navigation.h'],['../rover_2navigation_8h.html#a397bca15d146964a80f93abd74763384',1,'NormCourse():&#160;navigation.h']]],

@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -340,156 +340,160 @@ $(document).ready(function(){initNavTree('lisa__mx_2chibios_2v2_81_2mcuconf_8h_s
 <div class="line"><a name="l00229"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a6f066eafb341c481f419dc609e1cd147">  229</a></span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM1                  FALSE</span></div>
 <div class="line"><a name="l00230"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a061e9a31faab6d787c73d7f21893e483">  230</a></span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM2                  FALSE</span></div>
 <div class="line"><a name="l00231"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a3f108deab28dba83858c5a6d5089a322">  231</a></span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM3                  TRUE</span></div>
-<div class="line"><a name="l00232"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#aa4ecf8f03432b8aabf2f96ca370310d6">  232</a></span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM4                  FALSE</span></div>
-<div class="line"><a name="l00233"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ae98fcb3612d26b3cf74c2d28e4994249">  233</a></span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM5                  TRUE</span></div>
-<div class="line"><a name="l00234"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#af9be48d9e825a860764b4a928124f046">  234</a></span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM8                  FALSE</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a78c57d64b293ef3b265175e2a2f9004a">  235</a></span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM9                  FALSE</span></div>
-<div class="line"><a name="l00236"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ae631e1c4b6541c9d67de9d009196b770">  236</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM1_IRQ_PRIORITY         7</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a01b2a27910cfaed8a40043c8efe1e9a4">  237</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM2_IRQ_PRIORITY         7</span></div>
-<div class="line"><a name="l00238"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a8b4f8d9d4308f0503738704437284592">  238</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM3_IRQ_PRIORITY         7</span></div>
-<div class="line"><a name="l00239"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a072aabc3f06ec1702c1fc5eb3c6b01f8">  239</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM4_IRQ_PRIORITY         7</span></div>
-<div class="line"><a name="l00240"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ab5e7265edffef2f0b796b755ca4cfbad">  240</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM5_IRQ_PRIORITY         7</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ab879e56e8632bb4beb029c28133cc504">  241</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM8_IRQ_PRIORITY         7</span></div>
-<div class="line"><a name="l00242"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a6f416a1eac8b8cea90cc80535a8269dd">  242</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM9_IRQ_PRIORITY         7</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="comment"> * SERIAL driver system settings.</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="preprocessor">#if USE_UART1</span></div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART1             TRUE</span></div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00250"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a7f657adda8b7f6aa955f0806a29b0b9d">  250</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART1             FALSE</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor">#if USE_UART2</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART2             TRUE</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#acf6b4949732fac0a1ded862174aabba7">  255</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART2             FALSE</span></div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="preprocessor">#if USE_UART3</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART3             TRUE</span></div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00260"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a59976b6c28b2561d2b6bd7e3940ea377">  260</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART3             FALSE</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor">#if USE_UART4</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_UART4              TRUE</span></div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9863e1adf0d2aab7bf31b61fe4a6118e">  265</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_UART4              FALSE</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor">#if USE_UART5</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_UART5              TRUE</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a6366c26f605ce31e89deee1af686f5e6">  270</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_UART5              FALSE</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor">#if USE_UART6</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART6             TRUE</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00275"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a5fa35e1fea5f5813af76c2d2b9c03215">  275</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART6             FALSE</span></div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00277"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a7509c7a01a83276aa7768474357ec61d">  277</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USART1_PRIORITY        12</span></div>
-<div class="line"><a name="l00278"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a562945e4ccd2bca4a4277eaa05ae70a0">  278</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USART2_PRIORITY        12</span></div>
-<div class="line"><a name="l00279"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a228a6b5e5aed69db051dcea1ef58232a">  279</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USART3_PRIORITY        12</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a2bc2adc3f0b24eadf5705b40f03b7648">  280</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_UART4_PRIORITY         12</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a868d30e39ec6441e34b33a9db1028d60">  281</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_UART5_PRIORITY         15</span></div>
-<div class="line"><a name="l00282"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ad4450f9b0b7a50cdf4f86c67a67d030b">  282</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USART6_PRIORITY        12</span></div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="comment"> * SPI driver system settings.</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">#if USE_SPI1</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#af105fbdfb7b9076472b373ed0c7b3fef">  288</a></span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI1                  TRUE</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI1                  FALSE</span></div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="preprocessor">#if USE_SPI2</span></div>
-<div class="line"><a name="l00293"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a626416dc22cf5f3deff2a8c7d8efa5b2">  293</a></span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI2                  TRUE</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI2                  FALSE</span></div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="preprocessor">#if USE_SPI3</span></div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI3                  TRUE</span></div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00300"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#afe588bf112fc8f8a22c767aa3d3bcbb7">  300</a></span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI3                  FALSE</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a620b74e1fca03c6e11c054d137c56524">  302</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI1_RX_DMA_STREAM        STM32_DMA_STREAM_ID(2, 0)</span></div>
-<div class="line"><a name="l00303"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9f72e7206a6300a9d86bccf73f85279a">  303</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI1_TX_DMA_STREAM        STM32_DMA_STREAM_ID(2, 3)</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#aa499e5a7c6352b58178e0651483d88ee">  304</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI2_RX_DMA_STREAM        STM32_DMA_STREAM_ID(1, 3)</span></div>
-<div class="line"><a name="l00305"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9aefcd7246075d08426d5bc833e86b97">  305</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI2_TX_DMA_STREAM        STM32_DMA_STREAM_ID(1, 4)</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#acb9e4ecbe8f121a049306536fa66542c">  306</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI3_RX_DMA_STREAM        STM32_DMA_STREAM_ID(1, 0)</span></div>
-<div class="line"><a name="l00307"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a4d7890ef7b4b607b90eb9eafae504f0d">  307</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI3_TX_DMA_STREAM        STM32_DMA_STREAM_ID(1, 7)</span></div>
-<div class="line"><a name="l00308"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a22d3ce19419dc8bbc47f94c065f3271c">  308</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI1_DMA_PRIORITY         1</span></div>
-<div class="line"><a name="l00309"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a90bd623120d1e54038094fba54ba05c0">  309</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI2_DMA_PRIORITY         1</span></div>
-<div class="line"><a name="l00310"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a0330335b8223bb2fd7b30a8bf6748a25">  310</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI3_DMA_PRIORITY         1</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a0b3f4734d9855324ef89b57cb9858e49">  311</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI1_IRQ_PRIORITY         10</span></div>
-<div class="line"><a name="l00312"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a47d90eaca23f3eea99d74d1bb3539541">  312</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI2_IRQ_PRIORITY         10</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a311306228435a4ddb879e8f0d80e3c10">  313</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI3_IRQ_PRIORITY         10</span></div>
-<div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#afda450bd11b4c1408739367b23c9f852">  314</a></span>&#160;<span class="preprocessor">#define STM32_SPI_DMA_ERROR_HOOK(spip)      osalSysHalt(&quot;DMA failure&quot;)</span></div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="comment"> * UART driver system settings.</span></div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="preprocessor">#if USE_UARTD1</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART1               TRUE</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a7b366b1eb660467c7ef9667705ad8308">  323</a></span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART1               FALSE</span></div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor">#if USE_UARTD2</span></div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART2               TRUE</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ad9f8b9dcf8dd01e163b8d47c56cee1aa">  328</a></span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART2               FALSE</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="preprocessor">#if USE_UARTD3</span></div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART3               TRUE</span></div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00333"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a42b1761cd3b7e70eb3c5c90d9b92f52c">  333</a></span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART3               FALSE</span></div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="preprocessor">#if USE_UARTD6</span></div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART6               TRUE</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00338"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a6f5d3dfc7539503f8639d4be5b81928d">  338</a></span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART6               FALSE</span></div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00340"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a969b79cb637b8b69cec9257705d74484">  340</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART1_RX_DMA_STREAM     STM32_DMA_STREAM_ID(2, 5)</span></div>
-<div class="line"><a name="l00341"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a02c568ae2c758034cdf478f81b447af3">  341</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART1_TX_DMA_STREAM     STM32_DMA_STREAM_ID(2, 7)</span></div>
-<div class="line"><a name="l00342"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#af80e6c340ebc738f24275329c32db853">  342</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART2_RX_DMA_STREAM     STM32_DMA_STREAM_ID(1, 5)</span></div>
-<div class="line"><a name="l00343"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#aacb71b8fee4d07ab0317ac8cc6ee9856">  343</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART2_TX_DMA_STREAM     STM32_DMA_STREAM_ID(1, 6)</span></div>
-<div class="line"><a name="l00344"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ad5644ee22605eb7f136b390dba9f9725">  344</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART3_RX_DMA_STREAM     STM32_DMA_STREAM_ID(1, 1)</span></div>
-<div class="line"><a name="l00345"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a5339fe32096faad20bbcf31d2d5b45d1">  345</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART3_TX_DMA_STREAM     STM32_DMA_STREAM_ID(1, 4)</span></div>
-<div class="line"><a name="l00346"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a0cf68b359bf671f56cd200677a8496a5">  346</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART6_RX_DMA_STREAM     STM32_DMA_STREAM_ID(2, 2)</span></div>
-<div class="line"><a name="l00347"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ae32ac88b3b64552f9ecec5a038dfc544">  347</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART6_TX_DMA_STREAM     STM32_DMA_STREAM_ID(2, 7)</span></div>
-<div class="line"><a name="l00348"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a050fc59913309402f34dd2ea6ab3cdf8">  348</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART1_IRQ_PRIORITY      7</span></div>
-<div class="line"><a name="l00349"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ad1d292d78abf8f0b5a9e210d217a1cfe">  349</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART2_IRQ_PRIORITY      6</span></div>
-<div class="line"><a name="l00350"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9c9553fdd3fc1f7790cbcbd784d54d54">  350</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART3_IRQ_PRIORITY      12</span></div>
-<div class="line"><a name="l00351"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#aebae084c5d2daf88c58efd5a9c1d52af">  351</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART6_IRQ_PRIORITY      13</span></div>
-<div class="line"><a name="l00352"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a8307c6c43bf456405efe19e5908d5a25">  352</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART1_DMA_PRIORITY      0</span></div>
-<div class="line"><a name="l00353"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a02ab064f32c429288dce0b15b2e443a1">  353</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART2_DMA_PRIORITY      0</span></div>
-<div class="line"><a name="l00354"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a4f49346cf0c36ac85466517ceff6299b">  354</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART3_DMA_PRIORITY      0</span></div>
-<div class="line"><a name="l00355"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a7e58662e757ecd7f20e8135c82393312">  355</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART6_DMA_PRIORITY      0</span></div>
-<div class="line"><a name="l00356"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9a4cb321d74c57b544a1628faaae1569">  356</a></span>&#160;<span class="preprocessor">#define STM32_UART_DMA_ERROR_HOOK(uartp)    osalSysHalt(&quot;DMA failure&quot;)</span></div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;<span class="comment"> * USB driver system settings.</span></div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="preprocessor">#if USE_USB_SERIAL</span></div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;<span class="preprocessor">#define STM32_USB_USE_OTG1                  TRUE</span></div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00364"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ac7d6b8123d2eacf524927fc68f70baa1">  364</a></span>&#160;<span class="preprocessor">#define STM32_USB_USE_OTG1                  FALSE</span></div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00366"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a56a0c40fe1260ca2265cc01d42668ca7">  366</a></span>&#160;<span class="preprocessor">#define STM32_USB_USE_OTG2                  FALSE</span></div>
-<div class="line"><a name="l00367"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#aa6f3292830116ce88ed2268f15f45448">  367</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG1_IRQ_PRIORITY         14</span></div>
-<div class="line"><a name="l00368"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a4026ae95617bb7ee1cbc32248e97e263">  368</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG2_IRQ_PRIORITY         14</span></div>
-<div class="line"><a name="l00369"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a3bef70abed53b8df90c5edb807077e37">  369</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG1_RX_FIFO_SIZE         512</span></div>
-<div class="line"><a name="l00370"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a7c6ca71505c504cbd011d772af8cf665">  370</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG2_RX_FIFO_SIZE         1024</span></div>
-<div class="line"><a name="l00371"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a4d2cdf3f4db17ba5a02b3ceaa26d95d2">  371</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG_THREAD_PRIO           LOWPRIO</span></div>
-<div class="line"><a name="l00372"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a312189ef5ee80551c65c5655dcd16edf">  372</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG_THREAD_STACK_SIZE     128</span></div>
-<div class="line"><a name="l00373"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9ccd82d55af1633658db54858378c277">  373</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTGFIFO_FILL_BASEPRI      0</span></div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="preprocessor">#ifdef USE_SERVOS_7AND8</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM4                  TRUE</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#aa4ecf8f03432b8aabf2f96ca370310d6">  235</a></span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM4                  FALSE</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ae98fcb3612d26b3cf74c2d28e4994249">  237</a></span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM5                  TRUE</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#af9be48d9e825a860764b4a928124f046">  238</a></span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM8                  FALSE</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a78c57d64b293ef3b265175e2a2f9004a">  239</a></span>&#160;<span class="preprocessor">#define STM32_PWM_USE_TIM9                  FALSE</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ae631e1c4b6541c9d67de9d009196b770">  240</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM1_IRQ_PRIORITY         7</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a01b2a27910cfaed8a40043c8efe1e9a4">  241</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM2_IRQ_PRIORITY         7</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a8b4f8d9d4308f0503738704437284592">  242</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM3_IRQ_PRIORITY         7</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a072aabc3f06ec1702c1fc5eb3c6b01f8">  243</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM4_IRQ_PRIORITY         7</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ab5e7265edffef2f0b796b755ca4cfbad">  244</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM5_IRQ_PRIORITY         7</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ab879e56e8632bb4beb029c28133cc504">  245</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM8_IRQ_PRIORITY         7</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a6f416a1eac8b8cea90cc80535a8269dd">  246</a></span>&#160;<span class="preprocessor">#define STM32_PWM_TIM9_IRQ_PRIORITY         7</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="comment"> * SERIAL driver system settings.</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="preprocessor">#if USE_UART1</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART1             TRUE</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a7f657adda8b7f6aa955f0806a29b0b9d">  254</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART1             FALSE</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="preprocessor">#if USE_UART2</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART2             TRUE</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#acf6b4949732fac0a1ded862174aabba7">  259</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART2             FALSE</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="preprocessor">#if USE_UART3</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART3             TRUE</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a59976b6c28b2561d2b6bd7e3940ea377">  264</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART3             FALSE</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor">#if USE_UART4</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_UART4              TRUE</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9863e1adf0d2aab7bf31b61fe4a6118e">  269</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_UART4              FALSE</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">#if USE_UART5</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_UART5              TRUE</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a6366c26f605ce31e89deee1af686f5e6">  274</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_UART5              FALSE</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="preprocessor">#if USE_UART6</span></div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART6             TRUE</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a5fa35e1fea5f5813af76c2d2b9c03215">  279</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USE_USART6             FALSE</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a7509c7a01a83276aa7768474357ec61d">  281</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USART1_PRIORITY        12</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a562945e4ccd2bca4a4277eaa05ae70a0">  282</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USART2_PRIORITY        12</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a228a6b5e5aed69db051dcea1ef58232a">  283</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USART3_PRIORITY        12</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a2bc2adc3f0b24eadf5705b40f03b7648">  284</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_UART4_PRIORITY         12</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a868d30e39ec6441e34b33a9db1028d60">  285</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_UART5_PRIORITY         15</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ad4450f9b0b7a50cdf4f86c67a67d030b">  286</a></span>&#160;<span class="preprocessor">#define STM32_SERIAL_USART6_PRIORITY        12</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="comment"> * SPI driver system settings.</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="preprocessor">#if USE_SPI1</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#af105fbdfb7b9076472b373ed0c7b3fef">  292</a></span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI1                  TRUE</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI1                  FALSE</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="preprocessor">#if USE_SPI2</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a626416dc22cf5f3deff2a8c7d8efa5b2">  297</a></span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI2                  TRUE</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI2                  FALSE</span></div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor">#if USE_SPI3</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI3                  TRUE</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#afe588bf112fc8f8a22c767aa3d3bcbb7">  304</a></span>&#160;<span class="preprocessor">#define STM32_SPI_USE_SPI3                  FALSE</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a620b74e1fca03c6e11c054d137c56524">  306</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI1_RX_DMA_STREAM        STM32_DMA_STREAM_ID(2, 0)</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9f72e7206a6300a9d86bccf73f85279a">  307</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI1_TX_DMA_STREAM        STM32_DMA_STREAM_ID(2, 3)</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#aa499e5a7c6352b58178e0651483d88ee">  308</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI2_RX_DMA_STREAM        STM32_DMA_STREAM_ID(1, 3)</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9aefcd7246075d08426d5bc833e86b97">  309</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI2_TX_DMA_STREAM        STM32_DMA_STREAM_ID(1, 4)</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#acb9e4ecbe8f121a049306536fa66542c">  310</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI3_RX_DMA_STREAM        STM32_DMA_STREAM_ID(1, 0)</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a4d7890ef7b4b607b90eb9eafae504f0d">  311</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI3_TX_DMA_STREAM        STM32_DMA_STREAM_ID(1, 7)</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a22d3ce19419dc8bbc47f94c065f3271c">  312</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI1_DMA_PRIORITY         1</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a90bd623120d1e54038094fba54ba05c0">  313</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI2_DMA_PRIORITY         1</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a0330335b8223bb2fd7b30a8bf6748a25">  314</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI3_DMA_PRIORITY         1</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a0b3f4734d9855324ef89b57cb9858e49">  315</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI1_IRQ_PRIORITY         10</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a47d90eaca23f3eea99d74d1bb3539541">  316</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI2_IRQ_PRIORITY         10</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a311306228435a4ddb879e8f0d80e3c10">  317</a></span>&#160;<span class="preprocessor">#define STM32_SPI_SPI3_IRQ_PRIORITY         10</span></div>
+<div class="line"><a name="l00318"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#afda450bd11b4c1408739367b23c9f852">  318</a></span>&#160;<span class="preprocessor">#define STM32_SPI_DMA_ERROR_HOOK(spip)      osalSysHalt(&quot;DMA failure&quot;)</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="comment"> * UART driver system settings.</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="preprocessor">#if USE_UARTD1</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART1               TRUE</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a7b366b1eb660467c7ef9667705ad8308">  327</a></span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART1               FALSE</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="preprocessor">#if USE_UARTD2</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART2               TRUE</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ad9f8b9dcf8dd01e163b8d47c56cee1aa">  332</a></span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART2               FALSE</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="preprocessor">#if USE_UARTD3</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART3               TRUE</span></div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00337"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a42b1761cd3b7e70eb3c5c90d9b92f52c">  337</a></span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART3               FALSE</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">#if USE_UARTD6</span></div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART6               TRUE</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00342"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a6f5d3dfc7539503f8639d4be5b81928d">  342</a></span>&#160;<span class="preprocessor">#define STM32_UART_USE_USART6               FALSE</span></div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a969b79cb637b8b69cec9257705d74484">  344</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART1_RX_DMA_STREAM     STM32_DMA_STREAM_ID(2, 5)</span></div>
+<div class="line"><a name="l00345"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a02c568ae2c758034cdf478f81b447af3">  345</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART1_TX_DMA_STREAM     STM32_DMA_STREAM_ID(2, 7)</span></div>
+<div class="line"><a name="l00346"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#af80e6c340ebc738f24275329c32db853">  346</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART2_RX_DMA_STREAM     STM32_DMA_STREAM_ID(1, 5)</span></div>
+<div class="line"><a name="l00347"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#aacb71b8fee4d07ab0317ac8cc6ee9856">  347</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART2_TX_DMA_STREAM     STM32_DMA_STREAM_ID(1, 6)</span></div>
+<div class="line"><a name="l00348"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ad5644ee22605eb7f136b390dba9f9725">  348</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART3_RX_DMA_STREAM     STM32_DMA_STREAM_ID(1, 1)</span></div>
+<div class="line"><a name="l00349"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a5339fe32096faad20bbcf31d2d5b45d1">  349</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART3_TX_DMA_STREAM     STM32_DMA_STREAM_ID(1, 4)</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a0cf68b359bf671f56cd200677a8496a5">  350</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART6_RX_DMA_STREAM     STM32_DMA_STREAM_ID(2, 2)</span></div>
+<div class="line"><a name="l00351"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ae32ac88b3b64552f9ecec5a038dfc544">  351</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART6_TX_DMA_STREAM     STM32_DMA_STREAM_ID(2, 7)</span></div>
+<div class="line"><a name="l00352"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a050fc59913309402f34dd2ea6ab3cdf8">  352</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART1_IRQ_PRIORITY      7</span></div>
+<div class="line"><a name="l00353"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ad1d292d78abf8f0b5a9e210d217a1cfe">  353</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART2_IRQ_PRIORITY      6</span></div>
+<div class="line"><a name="l00354"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9c9553fdd3fc1f7790cbcbd784d54d54">  354</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART3_IRQ_PRIORITY      12</span></div>
+<div class="line"><a name="l00355"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#aebae084c5d2daf88c58efd5a9c1d52af">  355</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART6_IRQ_PRIORITY      13</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a8307c6c43bf456405efe19e5908d5a25">  356</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART1_DMA_PRIORITY      0</span></div>
+<div class="line"><a name="l00357"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a02ab064f32c429288dce0b15b2e443a1">  357</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART2_DMA_PRIORITY      0</span></div>
+<div class="line"><a name="l00358"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a4f49346cf0c36ac85466517ceff6299b">  358</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART3_DMA_PRIORITY      0</span></div>
+<div class="line"><a name="l00359"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a7e58662e757ecd7f20e8135c82393312">  359</a></span>&#160;<span class="preprocessor">#define STM32_UART_USART6_DMA_PRIORITY      0</span></div>
+<div class="line"><a name="l00360"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9a4cb321d74c57b544a1628faaae1569">  360</a></span>&#160;<span class="preprocessor">#define STM32_UART_DMA_ERROR_HOOK(uartp)    osalSysHalt(&quot;DMA failure&quot;)</span></div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="comment"> * USB driver system settings.</span></div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;<span class="preprocessor">#if USE_USB_SERIAL</span></div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;<span class="preprocessor">#define STM32_USB_USE_OTG1                  TRUE</span></div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00368"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#ac7d6b8123d2eacf524927fc68f70baa1">  368</a></span>&#160;<span class="preprocessor">#define STM32_USB_USE_OTG1                  FALSE</span></div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00370"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a56a0c40fe1260ca2265cc01d42668ca7">  370</a></span>&#160;<span class="preprocessor">#define STM32_USB_USE_OTG2                  FALSE</span></div>
+<div class="line"><a name="l00371"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#aa6f3292830116ce88ed2268f15f45448">  371</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG1_IRQ_PRIORITY         14</span></div>
+<div class="line"><a name="l00372"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a4026ae95617bb7ee1cbc32248e97e263">  372</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG2_IRQ_PRIORITY         14</span></div>
+<div class="line"><a name="l00373"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a3bef70abed53b8df90c5edb807077e37">  373</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG1_RX_FIFO_SIZE         512</span></div>
+<div class="line"><a name="l00374"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a7c6ca71505c504cbd011d772af8cf665">  374</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG2_RX_FIFO_SIZE         1024</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a4d2cdf3f4db17ba5a02b3ceaa26d95d2">  375</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG_THREAD_PRIO           LOWPRIO</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a312189ef5ee80551c65c5655dcd16edf">  376</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTG_THREAD_STACK_SIZE     128</span></div>
+<div class="line"><a name="l00377"></a><span class="lineno"><a class="line" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html#a9ccd82d55af1633658db54858378c277">  377</a></span>&#160;<span class="preprocessor">#define STM32_USB_OTGFIFO_FILL_BASEPRI      0</span></div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_e030268cd18297cf6282390f76bfcf7f.html">boards</a></li><li class="navelem"><a class="el" href="dir_13f821e2f8bff88178f2fd4f9016e4b4.html">lisa_mx</a></li><li class="navelem"><a class="el" href="dir_62a8b3c4c119106cd0d98b4de509151c.html">chibios</a></li><li class="navelem"><a class="el" href="dir_d164457e190da0740cefc299fa5fbcbc.html">v2.1</a></li><li class="navelem"><a class="el" href="lisa__mx_2chibios_2v2_81_2mcuconf_8h.html">mcuconf.h</a></li>
-    <li class="footer">Generated on Fri May 15 2020 04:02:11 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:02:13 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

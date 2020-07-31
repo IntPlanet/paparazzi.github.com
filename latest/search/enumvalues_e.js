@@ -16,6 +16,8 @@ var searchData=
   ['pmw3901_5fread_5fdeltaylow',['PMW3901_READ_DELTAYLOW',['../pmw3901_8h.html#ae83ca203ce25ca36fe925209e3135af4ac5d16722e8c19af1b9022d28d08b7cf7',1,'pmw3901.h']]],
   ['pmw3901_5fread_5fmotion',['PMW3901_READ_MOTION',['../pmw3901_8h.html#ae83ca203ce25ca36fe925209e3135af4a996a8f8e00405ee6aa17f6895c9f6c8f',1,'pmw3901.h']]],
   ['pnfac',['PNFAC',['../esc32_8h.html#a7d7ff77147834c43663d3dfd1f263610a0198c167311a51538ac261b60f2c3f05',1,'esc32.h']]],
+  ['position_5fedge',['POSITION_EDGE',['../wedgebug_8c.html#a17e419311a44de1996fd19462767ff73aa14f2633c708d0d27656e6ea0561e8d1',1,'wedgebug.c']]],
+  ['position_5fgoal',['POSITION_GOAL',['../wedgebug_8c.html#a17e419311a44de1996fd19462767ff73a998b887ac451d124211bdebdbc8f399b',1,'wedgebug.c']]],
   ['pot_5fheading',['POT_HEADING',['../guidance__OA_8h.html#a4dac0a956aca3da3fa670abc875414d2aa93f4f82cd7469ed71867b865b38374e',1,'guidance_OA.h']]],
   ['pot_5fvel',['POT_VEL',['../guidance__OA_8h.html#a4dac0a956aca3da3fa670abc875414d2a7bfca4b28c23467d1b82c256f1545e30',1,'guidance_OA.h']]],
   ['pprz_5fbaud',['PPRZ_BAUD',['../intermcu_8h.html#a692b0f0e24d84c328657634259b6cc2ca84e202ae6d6638d5e364f79cec4acdfe',1,'intermcu.h']]],

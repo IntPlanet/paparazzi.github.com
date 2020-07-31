@@ -20,7 +20,7 @@ var hal__stm32__dma_8h =
       [ "dmastream", "hal__stm32__dma_8h.html#accbfcb0c8446563460ac414050ce6d55", null ],
       [ "mem0p", "hal__stm32__dma_8h.html#a7dc5ac969f764c9b0178d51e2c93c50b", null ],
       [ "size", "hal__stm32__dma_8h.html#a1fa9f6f14bd74a1cefc57a37d3ad2f4d", null ],
-      [ "state", "hal__stm32__dma_8h.html#aaa59bfd877cfcbbe5127ad3b7c4b7b77", null ]
+      [ "state", "hal__stm32__dma_8h.html#accc7379a4c08699bbcfe7320ca241064", null ]
     ] ],
     [ "_dma_reset_i", "hal__stm32__dma_8h.html#a2c78738b2e4c669ca336468263b36ea7", null ],
     [ "_dma_reset_s", "hal__stm32__dma_8h.html#a3560aac43b81c2486f2fc49bc21d7e8d", null ],

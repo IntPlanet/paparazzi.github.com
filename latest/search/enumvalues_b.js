@@ -66,6 +66,8 @@ var searchData=
   ['missionsegment',['MissionSegment',['../mission__common_8h.html#a64f46ea1c53b7a5677d078814b7b4752adf596eb62434f0e84ed2404d474dbe70',1,'mission_common.h']]],
   ['missionwp',['MissionWP',['../mission__common_8h.html#a64f46ea1c53b7a5677d078814b7b4752adee6921ec8fea41804938fa1e0a7aa3f',1,'mission_common.h']]],
   ['motor_5fpoles',['MOTOR_POLES',['../esc32_8h.html#a7d7ff77147834c43663d3dfd1f263610aa2adb4121754ba74d9794e91fc38aef3',1,'esc32.h']]],
+  ['move_5fto_5fedge',['MOVE_TO_EDGE',['../wedgebug_8c.html#a17e419311a44de1996fd19462767ff73ae14aebbb95cfbb402bfcd5519eda5388',1,'wedgebug.c']]],
+  ['move_5fto_5fgoal',['MOVE_TO_GOAL',['../wedgebug_8c.html#a17e419311a44de1996fd19462767ff73a611aed47ba2e58b169bf9deded04db24',1,'wedgebug.c']]],
   ['mpl_5fconf_5fctrl1',['MPL_CONF_CTRL1',['../mpl3115_8h.html#a288a3579f402cbfdd2f478cc683b105dac06cfbf7741dee0a7eaee427ca1e87f3',1,'mpl3115.h']]],
   ['mpl_5fconf_5fdone',['MPL_CONF_DONE',['../mpl3115_8h.html#a288a3579f402cbfdd2f478cc683b105daac827bd1d5e9ee6e6ae1df1380af1ae2',1,'mpl3115.h']]],
   ['mpl_5fconf_5fpt_5fdata',['MPL_CONF_PT_DATA',['../mpl3115_8h.html#a288a3579f402cbfdd2f478cc683b105da8d72c1643f2370f5dfa6dee0a0e11f9c',1,'mpl3115.h']]],

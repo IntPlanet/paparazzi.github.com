@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -208,13 +208,14 @@ $(document).ready(function(){initNavTree('globals_defs_r.html','');});
 : <a class="el" href="nps__radio__control_8c.html#aeeb05a7b9bdc76eaf2dcdec93e57f61b">nps_radio_control.c</a>
 </li>
 <li>RADIO_CONTROL_NB_CHANNEL
-: <a class="el" href="sbus__common_8h.html#a1beed9c63b07301d72b3516543545652">sbus_common.h</a>
+: <a class="el" href="rc__datalink_8h.html#a1beed9c63b07301d72b3516543545652">rc_datalink.h</a>
+, <a class="el" href="sbus__common_8h.html#a1beed9c63b07301d72b3516543545652">sbus_common.h</a>
 , <a class="el" href="spektrum__radio_8h.html#a1beed9c63b07301d72b3516543545652">spektrum_radio.h</a>
 , <a class="el" href="superbitrf__rc_8h.html#a1beed9c63b07301d72b3516543545652">superbitrf_rc.h</a>
 , <a class="el" href="intermcu__ap_8h.html#a1beed9c63b07301d72b3516543545652">intermcu_ap.h</a>
+, <a class="el" href="cc2500__paparazzi_8h.html#a1beed9c63b07301d72b3516543545652">cc2500_paparazzi.h</a>
 , <a class="el" href="hott__common_8h.html#a1beed9c63b07301d72b3516543545652">hott_common.h</a>
 , <a class="el" href="ppm_8h.html#a1beed9c63b07301d72b3516543545652">ppm.h</a>
-, <a class="el" href="rc__datalink_8h.html#a1beed9c63b07301d72b3516543545652">rc_datalink.h</a>
 </li>
 <li>RADIO_CONTROL_POWER_OFF
 : <a class="el" href="opa__ftd__1_80_8h.html#ac3a85dd998d6a9692605087f79413899">opa_ftd_1.0.h</a>
@@ -267,10 +268,10 @@ $(document).ready(function(){initNavTree('globals_defs_r.html','');});
 , <a class="el" href="superbitrf__rc_8h.html#a2fab1464ab1748edb2a45a08cf7c422a">superbitrf_rc.h</a>
 </li>
 <li>RADIO_PITCH
-: <a class="el" href="rc__datalink_8h.html#a8e61ffe584bf24170117b9fcb2da4023">rc_datalink.h</a>
+: <a class="el" href="intermcu__ap_8h.html#a8e61ffe584bf24170117b9fcb2da4023">intermcu_ap.h</a>
+, <a class="el" href="rc__datalink_8h.html#a8e61ffe584bf24170117b9fcb2da4023">rc_datalink.h</a>
 , <a class="el" href="spektrum__radio_8h.html#a8e61ffe584bf24170117b9fcb2da4023">spektrum_radio.h</a>
 , <a class="el" href="superbitrf__rc_8h.html#a8e61ffe584bf24170117b9fcb2da4023">superbitrf_rc.h</a>
-, <a class="el" href="intermcu__ap_8h.html#a8e61ffe584bf24170117b9fcb2da4023">intermcu_ap.h</a>
 </li>
 <li>RADIO_ROLL
 : <a class="el" href="intermcu__ap_8h.html#ae59b042496b1debe96e1d98fbc3e4b1f">intermcu_ap.h</a>
@@ -291,7 +292,8 @@ $(document).ready(function(){initNavTree('globals_defs_r.html','');});
 , <a class="el" href="superbitrf__rc_8h.html#a0a504ca751f60fabf7900b13916561a6">superbitrf_rc.h</a>
 </li>
 <li>RadioControlEvent
-: <a class="el" href="dummy_8h.html#a48c5aff514f8ac1ab891bb12b748922b">dummy.h</a>
+: <a class="el" href="cc2500__paparazzi_8h.html#a48c5aff514f8ac1ab891bb12b748922b">cc2500_paparazzi.h</a>
+, <a class="el" href="dummy_8h.html#a48c5aff514f8ac1ab891bb12b748922b">dummy.h</a>
 , <a class="el" href="hott__common_8h.html#a48c5aff514f8ac1ab891bb12b748922b">hott_common.h</a>
 , <a class="el" href="ppm_8h.html#a48c5aff514f8ac1ab891bb12b748922b">ppm.h</a>
 , <a class="el" href="rc__datalink_8h.html#a48c5aff514f8ac1ab891bb12b748922b">rc_datalink.h</a>
@@ -428,6 +430,30 @@ $(document).ready(function(){initNavTree('globals_defs_r.html','');});
 <li>RC_AVG_PERIOD
 : <a class="el" href="radio__control_8h.html#adb1604ef051d981df6de90b770a9ef19">radio_control.h</a>
 </li>
+<li>RC_CHANNEL_COUNT_FRSKY_D
+: <a class="el" href="cc2500__frsky__d_8h.html#a824fb8130d9a96293957b22db08713f2">cc2500_frsky_d.h</a>
+</li>
+<li>RC_CHANNEL_COUNT_FRSKY_X
+: <a class="el" href="cc2500__frsky__x_8h.html#a0a92ce2d56739c0fa719bf7bbe5f0594">cc2500_frsky_x.h</a>
+</li>
+<li>RC_CHANNEL_FLIP
+: <a class="el" href="cc2500__rx__spi_8h.html#ab005fdbd7818fbc2482a4c31ee5ebad6">cc2500_rx_spi.h</a>
+</li>
+<li>RC_CHANNEL_HEADLESS
+: <a class="el" href="cc2500__rx__spi_8h.html#a9fcf0cc628f3db8a2819d160267dc01e">cc2500_rx_spi.h</a>
+</li>
+<li>RC_CHANNEL_PICTURE
+: <a class="el" href="cc2500__rx__spi_8h.html#ac5af184507bc7f9355439407719ea818">cc2500_rx_spi.h</a>
+</li>
+<li>RC_CHANNEL_RATE
+: <a class="el" href="cc2500__rx__spi_8h.html#a1a11aed6c7fd79d1d6c2f95f3760ad96">cc2500_rx_spi.h</a>
+</li>
+<li>RC_CHANNEL_RTH
+: <a class="el" href="cc2500__rx__spi_8h.html#ab0a858c32338b705a2205e441e5d6678">cc2500_rx_spi.h</a>
+</li>
+<li>RC_CHANNEL_VIDEO
+: <a class="el" href="cc2500__rx__spi_8h.html#aac8f85fbbebac3d884dd4c164596679e">cc2500_rx_spi.h</a>
+</li>
 <li>RC_CHANNELS
 : <a class="el" href="mavlink_8c.html#aad403df27c4671b0787f75525ee666ad">mavlink.c</a>
 </li>
@@ -484,21 +510,23 @@ $(document).ready(function(){initNavTree('globals_defs_r.html','');});
 </li>
 <li>RC_PPM_SIGNED_TICKS_OF_USEC
 : <a class="el" href="chibios_2subsystems_2radio__control_2ppm__arch_8h.html#a89dbcbaebdf3485e1fdecc29fb6f16db">ppm_arch.h</a>
+, <a class="el" href="cc2500__paparazzi_8h.html#ab60f6bbc326addf63715d164966694ce">cc2500_paparazzi.h</a>
 , <a class="el" href="hott__common_8h.html#a89dbcbaebdf3485e1fdecc29fb6f16db">hott_common.h</a>
 , <a class="el" href="sbus__common_8h.html#a89dbcbaebdf3485e1fdecc29fb6f16db">sbus_common.h</a>
 </li>
 <li>RC_PPM_TICKS_OF_USEC
 : <a class="el" href="chibios_2subsystems_2radio__control_2ppm__arch_8h.html#aad33b862bb6166593e16a30779799b51">ppm_arch.h</a>
+, <a class="el" href="cc2500__paparazzi_8h.html#a401eb5530d1ad24e91318ed96e0dfbbe">cc2500_paparazzi.h</a>
 , <a class="el" href="hott__common_8h.html#aad33b862bb6166593e16a30779799b51">hott_common.h</a>
 , <a class="el" href="sbus__common_8h.html#aad33b862bb6166593e16a30779799b51">sbus_common.h</a>
 </li>
 <li>RC_PPM_TICKS_PER_USEC
-: <a class="el" href="stm32_2subsystems_2radio__control_2ppm__arch_8h.html#a80e7b8968c15db17c6f362802e0cce05">ppm_arch.h</a>
+: <a class="el" href="tawaki_8h.html#a80e7b8968c15db17c6f362802e0cce05">tawaki.h</a>
+, <a class="el" href="lia_2chibios_2v1_81_2board_8h.html#a80e7b8968c15db17c6f362802e0cce05">board.h</a>
+, <a class="el" href="stm32_2subsystems_2radio__control_2ppm__arch_8h.html#a80e7b8968c15db17c6f362802e0cce05">ppm_arch.h</a>
 , <a class="el" href="apogee_2chibios_2v1_80_2board_8h.html#a80e7b8968c15db17c6f362802e0cce05">board.h</a>
 , <a class="el" href="chimera_8h.html#a80e7b8968c15db17c6f362802e0cce05">chimera.h</a>
-, <a class="el" href="lia_2chibios_2v1_81_2board_8h.html#a80e7b8968c15db17c6f362802e0cce05">board.h</a>
-, <a class="el" href="tawaki_8h.html#a80e7b8968c15db17c6f362802e0cce05">tawaki.h</a>
-, <a class="el" href="vms__ecu_2chibios_2v1_80_2board_8h.html#a80e7b8968c15db17c6f362802e0cce05">board.h</a>
+, <a class="el" href="lisa__mx_2chibios_2v2_81_2board_8h.html#a80e7b8968c15db17c6f362802e0cce05">board.h</a>
 </li>
 <li>RC_REALLY_LOST
 : <a class="el" href="radio__control_8h.html#a49d0c23f0651ada64ce2cfb001f7c47c">radio_control.h</a>
@@ -817,6 +845,9 @@ $(document).ready(function(){initNavTree('globals_defs_r.html','');});
 <li>RSSI_IN
 : <a class="el" href="px4fmu_2chibios_2v4_80_2board_8h.html#a29bbdfc9ae03b588e7b6508364ea674e">board.h</a>
 </li>
+<li>RSSI_SAMPLE_COUNT
+: <a class="el" href="cc2500__rx_8c.html#a2d251852a6c559c527cb2ccd6b83287f">cc2500_rx.c</a>
+</li>
 <li>RssiOfSender
 : <a class="el" href="bluegiga_8c.html#acbfc9b1d908a27ff68790bdc6f271742">bluegiga.c</a>
 </li>
@@ -976,6 +1007,12 @@ $(document).ready(function(){initNavTree('globals_defs_r.html','');});
 <li>RX2_POL
 : <a class="el" href="apogee_2chibios_2v1_80_2board_8h.html#a6aba486a472846ed9ad7015860cd8ca3">board.h</a>
 </li>
+<li>RX_LOSS_COUNT
+: <a class="el" href="cc2500__rx__spi__common_8h.html#ac02ee80bf21b16bd87573251b5273db6">cc2500_rx_spi_common.h</a>
+</li>
+<li>RX_SPI_MAX_PAYLOAD_SIZE
+: <a class="el" href="cc2500__compat_8h.html#aa166e502e3b7569b8f32f71d9ad29203">cc2500_compat.h</a>
+</li>
 <li>RXBUF_BASE
 : <a class="el" href="w5100_8c.html#a0b61d617d075e2e171480bd2839bf93f">w5100.c</a>
 </li>
@@ -994,13 +1031,16 @@ $(document).ready(function(){initNavTree('globals_defs_r.html','');});
 <li>RXMIS
 : <a class="el" href="LPC21xx_8h.html#a373a1d7e0664d5db1827932f93229140">LPC21xx.h</a>
 </li>
+<li>rxSpiDeviceInit
+: <a class="el" href="cc2500__compat_8h.html#a185259e40dc735bc1b5b790b529cd052">cc2500_compat.h</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 15 2020 04:04:12 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:04:18 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

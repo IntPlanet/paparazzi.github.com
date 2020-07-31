@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('blob__finder_8c.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4394ddcfee7f3a3c1ff870b038b2883b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blob__finder_8c.html#a4394ddcfee7f3a3c1ff870b038b2883b">image_labeling</a> (struct <a class="el" href="image_8h.html#structimage__t">image_t</a> *input, struct <a class="el" href="image_8h.html#structimage__t">image_t</a> *output, struct <a class="el" href="blob__finder_8h.html#structimage__filter__t">image_filter_t</a> *filters, <a class="el" href="types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> filters_cnt, struct <a class="el" href="blob__finder_8h.html#structimage__label__t">image_label_t</a> *labels, <a class="el" href="types_8h.html#a273cf69d639a59973b6019625df33e30">uint16_t</a> *labels_count)</td></tr>
+<tr class="memitem:a4394ddcfee7f3a3c1ff870b038b2883b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="blob__finder_8c.html#a4394ddcfee7f3a3c1ff870b038b2883b">image_labeling</a> (struct <a class="el" href="image_8h.html#structimage__t">image_t</a> *input, struct <a class="el" href="image_8h.html#structimage__t">image_t</a> *output, struct <a class="el" href="blob__finder_8h.html#structimage__filter__t">image_filter_t</a> *<a class="el" href="sys__id__chirp_8c.html#ab527cce5d26ca0bd8a0c44bfa328abf5">filters</a>, <a class="el" href="types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> filters_cnt, struct <a class="el" href="blob__finder_8h.html#structimage__label__t">image_label_t</a> *labels, <a class="el" href="types_8h.html#a273cf69d639a59973b6019625df33e30">uint16_t</a> *labels_count)</td></tr>
 <tr class="separator:a4394ddcfee7f3a3c1ff870b038b2883b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -188,7 +188,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="blob__finder_8c_source.html#l00033">33</a> of file <a class="el" href="blob__finder_8c_source.html">blob_finder.c</a>.</p>
 
-<p>References <a class="el" href="image_8h_source.html#l00053">image_t::buf</a>, <a class="el" href="blob__finder_8h_source.html#l00048">image_label_t::filter</a>, <a class="el" href="image_8h_source.html#l00046">image_t::h</a>, <a class="el" href="blob__finder_8h_source.html#l00047">image_label_t::id</a>, <a class="el" href="ins__alt__float_8c_source.html#l00268">p</a>, <a class="el" href="blob__finder_8h_source.html#l00050">image_label_t::pixel_cnt</a>, <a class="el" href="obstacle__avoidance_8c_source.html#l00130">v_max</a>, <a class="el" href="obstacle__avoidance_8c_source.html#l00129">v_min</a>, <a class="el" href="image_8h_source.html#l00045">image_t::w</a>, <a class="el" href="blob__finder_8h_source.html#l00051">image_label_t::x_min</a>, <a class="el" href="blob__finder_8h_source.html#l00053">image_label_t::x_sum</a>, <a class="el" href="blob__finder_8h_source.html#l00052">image_label_t::y_min</a>, and <a class="el" href="blob__finder_8h_source.html#l00054">image_label_t::y_sum</a>.</p>
+<p>References <a class="el" href="image_8h_source.html#l00054">image_t::buf</a>, <a class="el" href="wedgebug_8c_source.html#l00204">f</a>, <a class="el" href="blob__finder_8h_source.html#l00048">image_label_t::filter</a>, <a class="el" href="image_8h_source.html#l00047">image_t::h</a>, <a class="el" href="blob__finder_8h_source.html#l00047">image_label_t::id</a>, <a class="el" href="ins__alt__float_8c_source.html#l00268">p</a>, <a class="el" href="blob__finder_8h_source.html#l00050">image_label_t::pixel_cnt</a>, <a class="el" href="obstacle__avoidance_8c_source.html#l00130">v_max</a>, <a class="el" href="obstacle__avoidance_8c_source.html#l00129">v_min</a>, <a class="el" href="image_8h_source.html#l00046">image_t::w</a>, <a class="el" href="blob__finder_8h_source.html#l00051">image_label_t::x_min</a>, <a class="el" href="blob__finder_8h_source.html#l00053">image_label_t::x_sum</a>, <a class="el" href="blob__finder_8h_source.html#l00052">image_label_t::y_min</a>, and <a class="el" href="blob__finder_8h_source.html#l00054">image_label_t::y_sum</a>.</p>
 
 <p>Referenced by <a class="el" href="cv__blob__locator_8c_source.html#l00131">cv_blob_locator_func()</a>.</p>
 
@@ -211,7 +211,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_c2abcdd6ccb39c3582929c0e3f5651c2.html">modules</a></li><li class="navelem"><a class="el" href="dir_304e79c9f5d09ea65a2f55aafb6a6b9d.html">computer_vision</a></li><li class="navelem"><a class="el" href="dir_085e957c53d1527bb97919405ff6f1e3.html">blob</a></li><li class="navelem"><a class="el" href="blob__finder_8c.html">blob_finder.c</a></li>
-    <li class="footer">Generated on Fri May 15 2020 04:03:07 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:03:11 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

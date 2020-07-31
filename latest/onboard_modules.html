@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -293,6 +293,7 @@ Ctrl modules</h2>
 <li><a class="el" href="module__ctrl_effectiveness_scheduling.html">ctrl_effectiveness_scheduling module</a> : Interpolation of control effectivenss matrix.</li>
 <li><a class="el" href="module__ctrl_module_innerloop_demo.html">ctrl_module_innerloop_demo module</a> : Demo Control Module.</li>
 <li><a class="el" href="module__ctrl_module_outerloop_demo.html">ctrl_module_outerloop_demo module</a> : Demo Control Module.</li>
+<li><a class="el" href="module__ctrl_windtunnel.html">ctrl_windtunnel module</a> : Windtunnel controller for performing step inputs on flaps and throttle.</li>
 <li><a class="el" href="module__gain_scheduling.html">gain_scheduling module</a> : Gain set interpolation.</li>
 <li><a class="el" href="module__object_tracking.html">object_tracking module</a> : Control a rotorcraft heading to track an object detected by a camera</li>
 <li><a class="el" href="module__optical_flow_hover.html">optical_flow_hover module</a> : This module implements monocular vision height estimation and uses this</li>
@@ -316,6 +317,7 @@ Datalink modules</h2>
 <li><a class="el" href="module__telemetry_sim.html">telemetry_sim module</a> : Telemetry using IVY for basic FW simulator</li>
 <li><a class="el" href="module__telemetry_superbitrf.html">telemetry_superbitrf module</a> : Telemetry using PPRZ protocol over <a class="el" href="subsystems_2datalink_2superbitrf_8h.html#structSuperbitRF">SuperbitRF</a> module</li>
 <li><a class="el" href="module__telemetry_transparent.html">telemetry_transparent module</a> : Telemetry using PPRZ protocol over UART</li>
+<li><a class="el" href="module__telemetry_transparent_frsky_x.html">telemetry_transparent_frsky_x module</a> : Telemetry using pprzlink protocol over FrSky X SmartPort serial link</li>
 <li><a class="el" href="module__telemetry_transparent_gec.html">telemetry_transparent_gec module</a> : Galois Embedded Crypto over transparent datalink</li>
 <li><a class="el" href="module__telemetry_transparent_udp.html">telemetry_transparent_udp module</a> : Telemetry using PPRZ protocol over UDP</li>
 <li><a class="el" href="module__telemetry_transparent_usb.html">telemetry_transparent_usb module</a> : Telemetry using PPRZ protocol over serial USB (e.g</li>
@@ -386,6 +388,7 @@ Guidance modules</h2>
 <li><a class="el" href="module__guidance_full_pid_fw.html">guidance_full_pid_fw module</a> : Vertical control for fixedwing aircraft based on PID</li>
 <li><a class="el" href="module__guidance_hybrid.html">guidance_hybrid module</a> : Guidance controller for hybrid vehicles</li>
 <li><a class="el" href="module__guidance_indi.html">guidance_indi module</a> : Guidance controller for rotorcraft using INDI</li>
+<li><a class="el" href="module__guidance_indi_hybrid.html">guidance_indi_hybrid module</a> : Guidance controller for hybrids using INDI</li>
 <li><a class="el" href="module__guidance_rotorcraft.html">guidance_rotorcraft module</a> : Base guidance code for rotorcraft</li>
 <li><a class="el" href="module__guidance_rover.html">guidance_rover module</a> : Base guidance code for rover</li>
 <li><a class="el" href="module__guidance_rover_holonomic.html">guidance_rover_holonomic module</a> : Holonomic guidance for rover</li>
@@ -497,6 +500,7 @@ Loggers modules</h2>
 <ul>
 <li><a class="el" href="module__direct_memory_logger.html">direct_memory_logger module</a> : Directly log values to memory for flash chips.</li>
 <li><a class="el" href="module__flight_recorder.html">flight_recorder module</a> : Record flight data according to your telemetry file.</li>
+<li><a class="el" href="module__logger_control_effectiveness.html">logger_control_effectiveness module</a> : Logs to a csv file data required to compute control effectiveness</li>
 <li><a class="el" href="module__logger_dataflash.html">logger_dataflash module</a> : SPI logger</li>
 <li><a class="el" href="module__logger_file.html">logger_file module</a> : Logs to a csv file.</li>
 <li><a class="el" href="module__logger_sd_chibios.html">logger_sd_chibios module</a> : Log on a SD card, either text or binary data.</li>
@@ -759,25 +763,28 @@ Misc modules</h2>
 <li><a class="el" href="module__pose_history.html">pose_history module</a> : Ask this module for the pose the drone had closest to a given timestamp</li>
 <li><a class="el" href="module__px4_flash.html">px4_flash module</a> : Flash Pixhawk via PX4 bootloader.</li>
 <li><a class="el" href="module__px4_gimbal.html">px4_gimbal module</a> : Control gimbal camera axis through px4 from rc</li>
+<li><a class="el" href="module__radio_control_cc2500_frsky.html">radio_control_cc2500_frsky module</a> : Software implementation of Frsky radio control protocol for onboard CC2500 receiver.</li>
 <li><a class="el" href="module__range_forcefield.html">range_forcefield module</a> : This module generates a forcefield based on range sensor measurements the use of single point range sensor</li>
 <li><a class="el" href="module__relative_localization_filter.html">relative_localization_filter module</a> : Relative Localization Filter based on UWB range measurements + Communication between drones.</li>
 <li><a class="el" href="module__rust_demo_module.html">rust_demo_module module</a> : Simple rust module</li>
 <li><a class="el" href="module__servo_tester.html">servo_tester module</a> : Servo tester</li>
 <li><a class="el" href="module__settings_rc.html">settings_rc module</a> : Change settings via Remote Control, e.g</li>
 <li><a class="el" href="module__spektrum_soft_bind.html">spektrum_soft_bind module</a> : Puts Spektrum in binding mode through software</li>
+<li><a class="el" href="module__sys_id_chirp.html">sys_id_chirp module</a> : Chirp maneuver for system itentification.</li>
 <li><a class="el" href="module__syslink_dl.html">syslink_dl module</a> : Bitcraze syslink module</li>
 <li><a class="el" href="module__telemetry_intermcu.html">telemetry_intermcu module</a> : Telemetry over InterMCU</li>
 <li><a class="el" href="module__time_countdown.html">time_countdown module</a> : Count down time.</li>
 <li><a class="el" href="module__tlsf.html">tlsf module</a> : Dynamic memory allocator</li>
 <li><a class="el" href="module__vehicle_interface_datalink.html">vehicle_interface_datalink module</a> : Vehicule Interface over Datalink</li>
-<li><a class="el" href="module__vms_ecu_demo.html">vms_ecu_demo module</a> : A simple module for Viking Motorsports Engine Control Unit demonstration, </li>
+<li><a class="el" href="module__vms_ecu_demo.html">vms_ecu_demo module</a> : A simple module for Viking Motorsports Engine Control Unit demonstration,</li>
+<li><a class="el" href="module__wedgebug.html">wedgebug module</a> : An integration of the WegdeBug algorithm (Laubach 1999) for path finding, for drones with stereo vision. </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 15 2020 04:03:38 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:03:44 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -158,7 +158,12 @@ $(document).ready(function(){initNavTree('functions_vars_i.html','');});
 <li>i
 : <a class="el" href="rotorcraft_2guidance_2guidance__h_8h.html#a9f6ab14a47cb5b132c1fa6e98d0119fe">HorizontalGuidanceGains</a>
 , <a class="el" href="stabilization__attitude__common__int_8h.html#a9b6f3fd15b242cec0359c2d1b2ffd669">Int32AttitudeGains</a>
-, <a class="el" href="rover__guidance_8h.html#a84be25fddcd69db9d44c99cc62f062e3">RoverGuidancePID</a>
+</li>
+<li>I
+: <a class="el" href="cc2500__compat_8h.html#a804da2b94b3275491a448f5b318e1b97">pidGains_s</a>
+</li>
+<li>i
+: <a class="el" href="rover__guidance_8h.html#a84be25fddcd69db9d44c99cc62f062e3">RoverGuidancePID</a>
 , <a class="el" href="rover__guidance__holonomic_8h.html#a57c8bdf0b25f0fecb50b3724a34138dd">RoverHoloGuidancePID</a>
 , <a class="el" href="low__pass__filter_8h.html#af724a38e8d130297d1b58315ffa3a688">SecondOrderLowPass</a>
 , <a class="el" href="low__pass__filter_8h.html#adfeb2766a030a1345532cf0e31c9437a">SecondOrderLowPass_int</a>
@@ -387,6 +392,7 @@ $(document).ready(function(){initNavTree('functions_vars_i.html','');});
 </li>
 <li>index
 : <a class="el" href="mission__common_8h.html#a9b7e63b95f8d64933fb8db3cfa26934a">_mission_element</a>
+, <a class="el" href="cc2500__smartport_8c.html#a14bd13726365e4d1657a4ef547058909">frSkyTableInfo_s</a>
 , <a class="el" href="syslink_8h.html#a6882216069e4d7f1b1b71a5c390085e8">syslink_parse_state</a>
 </li>
 <li>info
@@ -412,7 +418,7 @@ $(document).ready(function(){initNavTree('functions_vars_i.html','');});
 , <a class="el" href="lis302dl__spi_8h.html#a39cd6e88b50bffbc7762872b609a2c4e">Lis302dl_Spi</a>
 , <a class="el" href="lps25h__i2c_8h.html#ab6438a61255c880cff5e9c985ada3ac3">Lps25h_I2c</a>
 , <a class="el" href="lsm303d__spi_8h.html#a1d07b5d2352114945362a660d7bb13a9">Lsm303d_Spi</a>
-, <a class="el" href="lsm303dlhc__i2c_8h.html#af450422406a080d22123a89c47e4159e">Lsm303dlhc_i2c</a>
+, <a class="el" href="lsm303dlhc__i2c_8h.html#af1dc564c0c9d770d63c678f2d45a8eac">Lsm303dlhc_i2c</a>
 , <a class="el" href="lsm6ds33__i2c_8h.html#a87207bcdb47c2d7be96a8005f81ffe9b">Lsm6_I2c</a>
 , <a class="el" href="mpl3115_8h.html#aae28532e3ba22b317795df493390dae9">Mpl3115</a>
 , <a class="el" href="mpu60x0_8h.html#aaa55e9b7acf9eb2d8ac272480df23cdd">Mpu60x0Config</a>
@@ -460,6 +466,15 @@ $(document).ready(function(){initNavTree('functions_vars_i.html','');});
 , <a class="el" href="mpu9250_8h.html#af64ff5b883179c7747e0c5389792d891">Mpu9250Config</a>
 , <a class="el" href="ms5611__i2c_8h.html#afd983ecb3762c55be45097cb634174bd">Ms5611_I2c</a>
 , <a class="el" href="ms5611__spi_8h.html#a84e076e3fd86f94ab6c97493b782c6cf">Ms5611_Spi</a>
+</li>
+<li>initiated
+: <a class="el" href="wedgebug_8c.html#aed348a7746823760eec4dd63d35bcb55">ES_angles</a>
+</li>
+<li>initRequest
+: <a class="el" href="cc2500__frsky__x_8c.html#a79c980d0a55edd018efd574693ee3f77">telemetrySequenceMarkerData_s</a>
+</li>
+<li>initResponse
+: <a class="el" href="cc2500__frsky__x_8c.html#abe576b8248ed97b189c94778b401ef5b">telemetrySequenceMarkerData_s</a>
 </li>
 <li>inlier
 : <a class="el" href="imavmarker_8h.html#a84e782a9595e5d9f64c49d9eb170fc6b">marker_deviation_t</a>
@@ -596,9 +611,15 @@ $(document).ready(function(){initNavTree('functions_vars_i.html','');});
 <li>is_initialized
 : <a class="el" href="navdata_8h.html#aee4148da53efcde3ac9c25c902fd99db">navdata_t</a>
 </li>
+<li>is_left_reached_flag
+: <a class="el" href="wedgebug_8c.html#af0cbc3509f66bf3268e5c9956006a3c3">ES_angles</a>
+</li>
 <li>is_ms5607
 : <a class="el" href="ms5611__i2c_8h.html#abfecb0e214ef090f4879c57b1ba65992">Ms5611_I2c</a>
 , <a class="el" href="ms5611__spi_8h.html#af13fcce5dd7dd39aa88d5ddc1c6184ed">Ms5611_Spi</a>
+</li>
+<li>is_right_reached_flag
+: <a class="el" href="wedgebug_8c.html#a66c67993a2f71ddf235c7c36c3d6708a">ES_angles</a>
 </li>
 <li>is_running
 : <a class="el" href="video__device_8h.html#a504eeaab49bcdc3fd10bfb7c323acd80">video_thread_t</a>
@@ -625,7 +646,7 @@ $(document).ready(function(){initNavTree('functions_vars_i.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 15 2020 04:04:08 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:04:14 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

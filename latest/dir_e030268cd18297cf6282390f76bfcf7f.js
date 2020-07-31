@@ -37,6 +37,7 @@ var dir_e030268cd18297cf6282390f76bfcf7f =
     [ "booz_1.0.h", "booz__1_80_8h.html", "booz__1_80_8h" ],
     [ "cc3d.h", "cc3d_8h.html", "cc3d_8h" ],
     [ "cjmcu.h", "cjmcu_8h.html", "cjmcu_8h" ],
+    [ "crazybee_f4_1.0.h", "crazybee__f4__1_80_8h.html", "crazybee__f4__1_80_8h" ],
     [ "disco.h", "disco_8h.html", "disco_8h" ],
     [ "elle0_1.0.h", "elle0__1_80_8h.html", null ],
     [ "elle0_1.2.h", "elle0__1_82_8h.html", null ],

@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -499,7 +499,7 @@ $(document).ready(function(){initNavTree('gsm_8c_source.html','');});
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;{</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <span class="comment">//We got &quot;+CSQ: &lt;rssi&gt;,&lt;ber&gt;&quot; &lt;rssi&gt; and &lt;ber&gt; on 2 digits (cf 3.5.4.4.4)</span></div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <span class="comment">// and we expect &quot;OK&quot; on the second line</span></div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <a class="code" href="types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> rssi = atoi(<a class="code" href="gsm_8c.html#a5fef8d3744876d6bf1db63daede4c457">gsm_buf</a> + strlen(<span class="stringliteral">&quot;+CSQ: &quot;</span>));</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <a class="code" href="types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> <a class="code" href="cc2500__rx_8c.html#afb0dc2ef1295b6bbe7a561d3d8552dda">rssi</a> = atoi(<a class="code" href="gsm_8c.html#a5fef8d3744876d6bf1db63daede4c457">gsm_buf</a> + strlen(<span class="stringliteral">&quot;+CSQ: &quot;</span>));</div>
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  <span class="comment">// Donnee GPS :ne sont pas envoyes gps_mode, gps.tow, gps.utm_pos.zone, gps_nb_ovrn</span></div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;  <span class="comment">// Donnees batterie (seuls vsupply et autopilot.flight_time sont envoyes)</span></div>
@@ -673,6 +673,7 @@ $(document).ready(function(){initNavTree('gsm_8c_source.html','');});
 <div class="ttc" id="downlink_8h_html_a891b19a3eba08208d4e550aa6c6188dd"><div class="ttname"><a href="downlink_8h.html#a891b19a3eba08208d4e550aa6c6188dd">DefaultChannel</a></div><div class="ttdeci">#define DefaultChannel</div><div class="ttdef"><b>Definition:</b> <a href="downlink_8h_source.html#l00042">downlink.h:42</a></div></div>
 <div class="ttc" id="autopilot_8h_html"><div class="ttname"><a href="autopilot_8h.html">autopilot.h</a></div><div class="ttdoc">Core autopilot interface common to all firmwares. </div></div>
 <div class="ttc" id="gsm_8c_html_a78d05100a105cf6352fa112ba110bf77"><div class="ttname"><a href="gsm_8c.html#a78d05100a105cf6352fa112ba110bf77">CMTI</a></div><div class="ttdeci">#define CMTI</div><div class="ttdef"><b>Definition:</b> <a href="gsm_8c_source.html#l00086">gsm.c:86</a></div></div>
+<div class="ttc" id="cc2500__rx_8c_html_afb0dc2ef1295b6bbe7a561d3d8552dda"><div class="ttname"><a href="cc2500__rx_8c.html#afb0dc2ef1295b6bbe7a561d3d8552dda">rssi</a></div><div class="ttdeci">static uint16_t rssi</div><div class="ttdef"><b>Definition:</b> <a href="cc2500__rx_8c_source.html#l00085">cc2500_rx.c:85</a></div></div>
 <div class="ttc" id="gsm_8c_html_af49df82862774db309579869d1e05cc9"><div class="ttname"><a href="gsm_8c.html#af49df82862774db309579869d1e05cc9">STATUS_POWERON</a></div><div class="ttdeci">#define STATUS_POWERON</div><div class="ttdef"><b>Definition:</b> <a href="gsm_8c_source.html#l00115">gsm.c:115</a></div></div>
 <div class="ttc" id="types_8h_html_aba7bc1797add20fe3efdf37ced1182c5"><div class="ttname"><a href="types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a></div><div class="ttdeci">unsigned char uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00014">types.h:14</a></div></div>
 <div class="ttc" id="gsm_8c_html_a77bfcaa5616315e2d3d2dbbadeb582ea"><div class="ttname"><a href="gsm_8c.html#a77bfcaa5616315e2d3d2dbbadeb582ea">Send_CPMS</a></div><div class="ttdeci">static void Send_CPMS(void)</div><div class="ttdef"><b>Definition:</b> <a href="gsm_8c_source.html#l00464">gsm.c:464</a></div></div>
@@ -702,7 +703,7 @@ $(document).ready(function(){initNavTree('gsm_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_c2abcdd6ccb39c3582929c0e3f5651c2.html">modules</a></li><li class="navelem"><a class="el" href="dir_6a22c778aa9d007fbd268b0dbbe385cb.html">gsm</a></li><li class="navelem"><a class="el" href="gsm_8c.html">gsm.c</a></li>
-    <li class="footer">Generated on Fri May 15 2020 04:02:23 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:02:26 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

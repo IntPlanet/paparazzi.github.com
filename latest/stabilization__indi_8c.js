@@ -68,6 +68,8 @@ var stabilization__indi_8c =
     [ "mu2", "stabilization__indi_8c.html#a8d40a3641e3c554e472f17e19dbf965d", null ],
     [ "num_iter", "stabilization__indi_8c.html#aec2269ddcef2faf5f35a7257ba3b8f0b", null ],
     [ "num_thrusters", "stabilization__indi_8c.html#a437607c8c74d6f8e47eab1333468dae5", null ],
+    [ "q_filt", "stabilization__indi_8c.html#a5ac8c1bac787aa8dd5ac7cedf7df8c4e", null ],
+    [ "r_filt", "stabilization__indi_8c.html#a4ac9ff1a86e6ed214eb20621f830265c", null ],
     [ "reference_acceleration", "stabilization__indi_8c.html#a6be6232124313cc99a13ce5c9f453b6a", null ],
     [ "rpm_ev", "stabilization__indi_8c.html#a4a88952668a3d8ce232c443ed5bb18b4", null ],
     [ "stab_att_sp_euler", "stabilization__indi_8c.html#a5b355848d1ce79a73b3fe67c8e86cd42", null ],

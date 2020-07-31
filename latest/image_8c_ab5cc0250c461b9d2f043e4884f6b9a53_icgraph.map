@@ -2,20 +2,21 @@
 <area shape="rect" id="node2" href="$opticflow__calculator_8h.html#a3edff14cc7f95b5202ba6841a12dfed3" title="Run the optical flow with fast9 and lukaskanade on a new image frame. " alt="" coords="812,247,992,273"/>
 <area shape="rect" id="node6" href="$cv_8c.html#abcef27aac4d31a36682981e347cd6f3a" title="cv_async_function" alt="" coords="180,411,319,437"/>
 <area shape="rect" id="node8" href="$video__thread_8c.html#a99fd8c1413b858abf320b9adb453ed75" title="Handles all the video streaming and saving of the image shots This is a separate thread, so it needs to be thread safe! " alt="" coords="601,461,764,488"/>
-<area shape="rect" id="node11" href="$cv__blob__locator_8c.html#a5298a0e08ea26e8e2031d5def6dc11ec" title="cv_blob_locator_func" alt="" coords="172,259,327,285"/>
-<area shape="rect" id="node13" href="$cv__blob__locator_8c.html#aa46d070d93f91a7f2399fe13aafab1bd" title="cv_window_func" alt="" coords="188,208,311,235"/>
+<area shape="rect" id="node11" href="$cv__blob__locator_8c.html#a5298a0e08ea26e8e2031d5def6dc11ec" title="cv_blob_locator_func" alt="" coords="172,208,327,235"/>
+<area shape="rect" id="node13" href="$cv__blob__locator_8c.html#aa46d070d93f91a7f2399fe13aafab1bd" title="cv_window_func" alt="" coords="188,259,311,285"/>
 <area shape="rect" id="node14" href="$detect__window_8h.html#a60d7aea06e4cdd5d5718514b22263e72" title="detect_window" alt="" coords="192,309,307,336"/>
-<area shape="rect" id="node16" href="$image_8h.html#af8fc6003afdb4b14bd2f8112491f2dc4" title="This function adds padding to input image by mirroring the edge image elements. " alt="" coords="178,56,321,83"/>
+<area shape="rect" id="node16" href="$image_8h.html#af8fc6003afdb4b14bd2f8112491f2dc4" title="This function adds padding to input image by mirroring the edge image elements. " alt="" coords="178,5,321,32"/>
 <area shape="rect" id="node18" href="$lucas__kanade_8h.html#a6a8349de0d6e2015151312034c07ed0d" title="opticFlowLK" alt="" coords="635,132,730,159"/>
 <area shape="rect" id="node19" href="$video__usb__logger_8c.html#aca46474177c731189d75297b63fe71f4" title="log_image" alt="" coords="205,461,293,488"/>
 <area shape="rect" id="node21" href="$lucas__kanade_8h.html#aec51a5433258fa6d3608ae6a76531945" title="Compute the optical flow of several points using the Lucas&#45;Kanade algorithm by Yves Bouguet The initi..." alt="" coords="407,157,529,184"/>
 <area shape="rect" id="node22" href="$pano__unwrap_8h.html#a03d0332c435b1307c5961073eaa4ff63" title="pano_unwrap_init" alt="" coords="616,664,749,691"/>
-<area shape="rect" id="node23" href="$image_8h.html#a038faec3786d8baa2e38c7672129e276" title="This function takes previous padded pyramid level and outputs next level of pyramid without padding..." alt="" coords="177,5,322,32"/>
+<area shape="rect" id="node23" href="$image_8h.html#a038faec3786d8baa2e38c7672129e276" title="This function takes previous padded pyramid level and outputs next level of pyramid without padding..." alt="" coords="177,56,322,83"/>
 <area shape="rect" id="node24" href="$qr__code_8h.html#a11658bf3a3b28cf09f0eb002dd77c507" title="qrscan" alt="" coords="217,613,282,640"/>
 <area shape="rect" id="node26" href="$pano__unwrap_8c.html#a30fd9eed01039f2c0f6375c224a051d2" title="set_output_image_size" alt="" coords="164,664,335,691"/>
 <area shape="rect" id="node28" href="$undistort__image_8c.html#a9dc008caa002db709ede677afab23d1c" title="undistort_image_func" alt="" coords="169,715,329,741"/>
 <area shape="rect" id="node30" href="$video__capture_8c.html#a827eff900b2ec2115c0098701f7a2706" title="video_capture_save" alt="" coords="175,765,324,792"/>
 <area shape="rect" id="node33" href="$viewvideo_8c.html#a4796c0ca6ba23a9dd0172784d2e94d59" title="Handles all the video streaming and saving of the image shots This is a separate thread, so it needs to be thread safe! " alt="" coords="179,816,320,843"/>
+<area shape="rect" id="node34" href="$wedgebug_8h.html#aa5dd4cdf2fa1c2edd243c2e1f6cdf95c" title="wedgebug_init" alt="" coords="193,867,306,893"/>
 <area shape="rect" id="node3" href="$opticflow__calculator_8h.html#a89e51af8fe5a0f534193635d181a2086" title="Run the optical flow on a new image frame. " alt="" coords="1040,247,1195,273"/>
 <area shape="rect" id="node4" href="$opticflow__module_8c.html#a36b69a7ec255d2d20bb31b6d13e3e567" title="The main optical flow calculation thread. " alt="" coords="1243,247,1407,273"/>
 <area shape="rect" id="node5" href="$opticflow__module_8h.html#a6026660ee86fbb1f72bada581386e6d9" title="Initialize the optical flow module for the bottom camera. " alt="" coords="1455,247,1613,273"/>

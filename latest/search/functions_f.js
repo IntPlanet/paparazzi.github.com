@@ -24,6 +24,7 @@ var searchData=
   ['opencv_5fexample',['opencv_example',['../opencv__example_8cpp.html#a6e9d13abcf561943ebba60b0b5f43565',1,'opencv_example(char *img, int width, int height):&#160;opencv_example.cpp'],['../opencv__example_8h.html#a6e9d13abcf561943ebba60b0b5f43565',1,'opencv_example(char *img, int width, int height):&#160;opencv_example.cpp']]],
   ['opencv_5ffunc',['opencv_func',['../cv__opencvdemo_8c.html#a5effea43b9cdfb2509b018a4d31da0f2',1,'cv_opencvdemo.c']]],
   ['opencvdemo_5finit',['opencvdemo_init',['../cv__opencvdemo_8c.html#ad6b89073e490f7f45751cf66f4b97c4b',1,'opencvdemo_init(void):&#160;cv_opencvdemo.c'],['../cv__opencvdemo_8h.html#ad6b89073e490f7f45751cf66f4b97c4b',1,'opencvdemo_init(void):&#160;cv_opencvdemo.c']]],
+  ['opening_5focv',['opening_OCV',['../wedgebug__opencv_8cpp.html#adecac5178ecc6b0378d9fe6ea1fc656e',1,'opening_OCV(struct image_t *img_input, const struct image_t *img_output, const int SE_size, const int iteration):&#160;wedgebug_opencv.cpp'],['../wedgebug__opencv_8h.html#adecac5178ecc6b0378d9fe6ea1fc656e',1,'opening_OCV(struct image_t *img_input, const struct image_t *img_output, const int SE_size, const int iteration):&#160;wedgebug_opencv.cpp']]],
   ['operator_20delete',['operator delete',['../c_09_09_8cpp.html#a86107594327f3a001230df9802cd4422',1,'c++.cpp']]],
   ['operator_20delete_5b_5d',['operator delete[]',['../c_09_09_8cpp.html#a1d8b2d6f17242ae0d182b0f7a98ba54f',1,'c++.cpp']]],
   ['operator_20new',['operator new',['../c_09_09_8cpp.html#a205ed048fdf5259c2e8e0cb60ee8f719',1,'c++.cpp']]],

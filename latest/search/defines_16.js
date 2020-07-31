@@ -292,6 +292,7 @@ var searchData=
   ['vl53l1_5fsystem_5f_5fgrouped_5fparameter_5fhold',['VL53L1_SYSTEM__GROUPED_PARAMETER_HOLD',['../vl53l1x__api_8h.html#a01651ee9d6f60f7829478d87cf82b3da',1,'vl53l1x_api.h']]],
   ['vl53l1_5fsystem_5f_5fintermeasurement_5fperiod',['VL53L1_SYSTEM__INTERMEASUREMENT_PERIOD',['../vl53l1x__api_8h.html#afaf7ce8aa0b5888276751194bcf5f931',1,'vl53l1x_api.h']]],
   ['vl53l1_5fvhv_5fconfig_5f_5ftimeout_5fmacrop_5floop_5fbound',['VL53L1_VHV_CONFIG__TIMEOUT_MACROP_LOOP_BOUND',['../vl53l1x__api_8h.html#a0b554c56b9617df6b957f26e407ce54d',1,'vl53l1x_api.h']]],
+  ['vl53l1x_5fi2c_5flevel',['VL53L1X_I2C_LEVEL',['../vl53l1x__api_8c.html#a04ae449f74447596300383ce20870300',1,'vl53l1x_api.c']]],
   ['vl53l1x_5fimplementation_5fver_5fmajor',['VL53L1X_IMPLEMENTATION_VER_MAJOR',['../vl53l1x__api_8h.html#a542371c8c3204d2a190bebed741a741e',1,'vl53l1x_api.h']]],
   ['vl53l1x_5fimplementation_5fver_5fminor',['VL53L1X_IMPLEMENTATION_VER_MINOR',['../vl53l1x__api_8h.html#aeb992f2c9bfd1c73dcfae9ebc7180fad',1,'vl53l1x_api.h']]],
   ['vl53l1x_5fimplementation_5fver_5frevision',['VL53L1X_IMPLEMENTATION_VER_REVISION',['../vl53l1x__api_8h.html#aede005dde2f068571499b6f56a2e191f',1,'vl53l1x_api.h']]],

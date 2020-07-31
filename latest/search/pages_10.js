@@ -30,6 +30,7 @@ var searchData=
   ['stereocam_5fnav_5fline_5favoid_20module',['stereocam_nav_line_avoid module',['../module__stereocam_nav_line_avoid.html',1,'onboard_modules']]],
   ['switch_5fservo_20module',['switch_servo module',['../module__switch_servo.html',1,'onboard_modules']]],
   ['switch_5fuart_20module',['switch_uart module',['../module__switch_uart.html',1,'onboard_modules']]],
+  ['sys_5fid_5fchirp_20module',['sys_id_chirp module',['../module__sys_id_chirp.html',1,'onboard_modules']]],
   ['sys_5fmon_20module',['sys_mon module',['../module__sys_mon.html',1,'onboard_modules']]],
   ['syslink_5fdl_20module',['syslink_dl module',['../module__syslink_dl.html',1,'onboard_modules']]],
   ['style_20guides',['Style Guides',['../styleguide.html',1,'index']]]

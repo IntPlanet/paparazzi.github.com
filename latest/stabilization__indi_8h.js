@@ -16,6 +16,8 @@ var stabilization__indi_8h =
     [ "stabilization_indi_set_earth_cmd_i", "stabilization__indi_8h.html#a487bd4ac66f844d9d1adfb696f950604", null ],
     [ "stabilization_indi_set_failsafe_setpoint", "stabilization__indi_8h.html#a2d7051eac973a8507897f6753deaf818", null ],
     [ "stabilization_indi_set_rpy_setpoint_i", "stabilization__indi_8h.html#aac24f92be2dd7af42e3e7906a1324fe9", null ],
+    [ "actuator_state_filt_vect", "stabilization__indi_8h.html#aadec734a354c9ca37ceea556f59bcf8c", null ],
+    [ "Bwls", "stabilization__indi_8h.html#a1953a1d7093d5fe41c2a4361577a837a", null ],
     [ "g1g2", "stabilization__indi_8h.html#a58b9d284732ce9ce4df89c8cb5027fb2", null ],
     [ "indi_use_adaptive", "stabilization__indi_8h.html#abf1ef333c752f3f24a26a3efaede5fea", null ],
     [ "reference_acceleration", "stabilization__indi_8h.html#a6be6232124313cc99a13ce5c9f453b6a", null ],

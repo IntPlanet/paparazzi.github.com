@@ -51,6 +51,8 @@ var searchData=
   ['anchor',['Anchor',['../trilateration_8h.html#structAnchor',1,'']]],
   ['aoa_5fadc',['Aoa_Adc',['../aoa__adc_8h.html#structAoa__Adc',1,'']]],
   ['aoa_5fpwm',['Aoa_Pwm',['../aoa__pwm_8h.html#structAoa__Pwm',1,'']]],
+  ['attitude_5ft',['attitude_t',['../cc2500__compat_8h.html#structattitude__t',1,'']]],
+  ['attitude_5fvalues_5ft',['attitude_values_t',['../cc2500__compat_8h.html#structattitude__values__t',1,'']]],
   ['attrefeulerfloat',['AttRefEulerFloat',['../stabilization__attitude__ref__euler__float_8h.html#structAttRefEulerFloat',1,'']]],
   ['attrefeulerint',['AttRefEulerInt',['../stabilization__attitude__ref__euler__int_8h.html#structAttRefEulerInt',1,'']]],
   ['attrefquatfloat',['AttRefQuatFloat',['../stabilization__attitude__ref__quat__float_8h.html#structAttRefQuatFloat',1,'']]],

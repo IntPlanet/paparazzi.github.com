@@ -28,6 +28,8 @@ var dir_0a48ba2c0a76794adfddddc873522f67 =
     [ "bmp3_i2c.c", "bmp3__i2c_8c.html", "bmp3__i2c_8c" ],
     [ "bmp3_i2c.h", "bmp3__i2c_8h.html", "bmp3__i2c_8h" ],
     [ "bmp3_regs.h", "bmp3__regs_8h.html", "bmp3__regs_8h" ],
+    [ "cc2500.c", "cc2500_8c.html", "cc2500_8c" ],
+    [ "cc2500.h", "cc2500_8h.html", "cc2500_8h" ],
     [ "cyrf6936.c", "cyrf6936_8c.html", "cyrf6936_8c" ],
     [ "cyrf6936.h", "cyrf6936_8h.html", "cyrf6936_8h" ],
     [ "cyrf6936_regs.h", "cyrf6936__regs_8h.html", "cyrf6936__regs_8h" ],

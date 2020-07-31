@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -333,6 +333,15 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 : <a class="el" href="mavlink__decoder_8h.html#adecf09c443f75267a30d7d876a993687">mavlink_message</a>
 , <a class="el" href="mission__manager_8h.html#a363cd6c3d938307b9fbfc6a5552c3fe8">mavlink_mission_mgr</a>
 </li>
+<li>sequence
+: <a class="el" href="cc2500__frsky__x_8c.html#a8db528ae00aeb196ab5ec89c1f9ce33b">telemetryPayload_s</a>
+</li>
+<li>serialrx_provider
+: <a class="el" href="cc2500__settings_8h.html#a07206bf99d4d97e08c39f911c5a5c3d1">rxConfig_s</a>
+</li>
+<li>serialrxProvider
+: <a class="el" href="cc2500__rx_8h.html#a9e458e3865d9accaf987465c51a2a16a">rxRuntimeConfig_s</a>
+</li>
 <li>set0
 : <a class="el" href="lpcGPIO_8h.html#a5a3b64b1b5b0080e1693dd7989c37f1a">gpioRegs_t</a>
 </li>
@@ -430,6 +439,8 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 <li>size
 : <a class="el" href="crtp_8h.html#ad1b25563fc48a6ebb61894695e12db21">crtp_message_t</a>
 , <a class="el" href="hal__stm32__dma_8h.html#a1fa9f6f14bd74a1cefc57a37d3ad2f4d">DMADriver</a>
+, <a class="el" href="frsky__x_8h.html#a93dce475a14e4b394637e13b4d30374f">fifo_t</a>
+, <a class="el" href="cc2500__smartport_8c.html#a6099ebf8c4f7629da3b292c4a13da9d3">frSkyTableInfo_s</a>
 , <a class="el" href="median__filter_8h.html#ac1af922cc9964252a19a531f43201da8">MedianFilterFloat</a>
 , <a class="el" href="median__filter_8h.html#a448c1109821dc77b8ae172b1055c57a4">MedianFilterInt</a>
 , <a class="el" href="nav__cube_8h.html#a4d6853885209d6c862f016899a7bb8e2">NavCube</a>
@@ -550,6 +561,12 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 </li>
 <li>speed_3d
 : <a class="el" href="gps_8h.html#acdba21d6a6cd05006627e7fa78fe2b40">GpsState</a>
+</li>
+<li>speed_gain
+: <a class="el" href="guidance__indi__hybrid_8h.html#a6ece91f994e2efe0830c3d23f74003cf">guidance_indi_hybrid_params</a>
+</li>
+<li>speed_gainz
+: <a class="el" href="guidance__indi__hybrid_8h.html#afaa6cd5aa4f3ba90c662f22609d3dcb3">guidance_indi_hybrid_params</a>
 </li>
 <li>speed_gps
 : <a class="el" href="ins__float__invariant_8h.html#ae048fc0f6bfe39a67ff99f76ae9b618d">inv_measures</a>
@@ -674,6 +691,9 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 <li>start_time
 : <a class="el" href="sbus__common_8h.html#a3a4fb3991be46610831fe98270c84a1a">Sbus</a>
 </li>
+<li>start_time_s
+: <a class="el" href="pprz__chirp_8h.html#a619ee92750cf29df9405ed0f5575740a">chirp_t</a>
+</li>
 <li>starter_power
 : <a class="el" href="flight__gear_8h.html#aa191f63e27a006ba3a248f1e64741496">FGNetCtrls</a>
 </li>
@@ -683,7 +703,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 </li>
 <li>state
 : <a class="el" href="ahrs__float__invariant_8h.html#af188c790d3e1a57121b114111b38e6d7">AhrsFloatInv</a>
-, <a class="el" href="hal__stm32__dma_8h.html#aaa59bfd877cfcbbe5127ad3b7c4b7b77">DMADriver</a>
+, <a class="el" href="hal__stm32__dma_8h.html#accc7379a4c08699bbcfe7320ca241064">DMADriver</a>
 , <a class="el" href="dw1000__arduino_8c.html#a245e75c8b31e9a330fc001aa4fad3e12">DW1000</a>
 , <a class="el" href="ekf__range_8h.html#a182d1a6967496e7b2c4b601121e21eec">EKFRange</a>
 , <a class="el" href="esc32_8c.html#ab806d21015d5ad1172f53ee072bc5c59">esc32_private</a>
@@ -698,6 +718,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 , <a class="el" href="mission__manager_8h.html#a3d969f6a89eb8b6488f20cf15514adda">mavlink_mission_mgr</a>
 , <a class="el" href="rtcm3_8h.html#a020c666bb4abb4b48ef32f5a1d757efa">msg_state_t</a>
 , <a class="el" href="pmw3901_8h.html#ac3f595df38026f45fcf0009b4e14cac7">pmw3901_t</a>
+, <a class="el" href="cc2500__compat_8h.html#a28322e6cf0e58fb7647f4cf3a17c50c5">pt1Filter_s</a>
 , <a class="el" href="subsystems_2datalink_2superbitrf_8h.html#abbf3a3629af8af29c0da98bfb525be37">SuperbitRF</a>
 , <a class="el" href="syslink__dl_8h.html#a5f8083b0ff32915bbec7a6730e2d121f">syslink_dl</a>
 , <a class="el" href="syslink_8h.html#a08ac04320cfb10ccdcea1c880ea74437">syslink_parse_state</a>
@@ -801,6 +822,9 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 </li>
 <li>stddev
 : <a class="el" href="px4flow__i2c_8h.html#af0e4600868dd9b7c22f0185b28bdbc36">px4flow_data</a>
+</li>
+<li>step
+: <a class="el" href="ctrl__windtunnel_8h.html#a83948f37dae7c49686f8e42da057a677">min_max_ctrl_t</a>
 </li>
 <li>stereo_bin
 : <a class="el" href="avoid__navigation_8h.html#a8eddb7ccb845c9692112c452ed4ab1ef">AvoidNavigationStruct</a>
@@ -926,7 +950,7 @@ $(document).ready(function(){initNavTree('functions_vars_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 15 2020 04:04:08 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:04:14 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

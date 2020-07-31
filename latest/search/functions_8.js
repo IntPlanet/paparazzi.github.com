@@ -29,6 +29,8 @@ var searchData=
   ['handle_5fuart_5ftx',['handle_uart_tx',['../chibios_2mcu__periph_2uart__arch_8c.html#a23bf3e40bbfbb4a53c546fc158086f9f',1,'uart_arch.c']]],
   ['handleclassrequest',['HandleClassRequest',['../lpc21_2usb__ser__hw_8c.html#a6c77a3470d979711809645830c55ea3a',1,'usb_ser_hw.c']]],
   ['handlenewstatevalue',['handleNewStateValue',['../decawave__anchorless__communication_8c.html#a910d30be78da3d9d74bfaeedfb27aaf8',1,'decawave_anchorless_communication.c']]],
+  ['heading_5ftowards_5fsetpoint_5fwned',['heading_towards_setpoint_WNED',['../wedgebug_8c.html#a510c53576b4bea1c112c032cd831275f',1,'wedgebug.c']]],
+  ['heading_5ftowards_5fwaypoint',['heading_towards_waypoint',['../wedgebug_8c.html#aed261b284630c66772a9582f15ec134a',1,'wedgebug.c']]],
   ['hff_5finit',['hff_init',['../hf__float_8c.html#a1ad0e0d6066d9ff6c02c42ef09cdd65d',1,'hff_init(float init_x, float init_xdot, float init_y, float init_ydot):&#160;hf_float.c'],['../hf__float_8h.html#a1ad0e0d6066d9ff6c02c42ef09cdd65d',1,'hff_init(float init_x, float init_xdot, float init_y, float init_ydot):&#160;hf_float.c']]],
   ['hff_5finit_5fx',['hff_init_x',['../hf__float_8c.html#a896f5d91e6dfb6576822aa447ee9912a',1,'hf_float.c']]],
   ['hff_5finit_5fy',['hff_init_y',['../hf__float_8c.html#a4f94aa362fb2f73abf4bf1cf1a3a8a52',1,'hf_float.c']]],

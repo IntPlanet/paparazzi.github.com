@@ -27,6 +27,7 @@ var searchData=
   ['guidance_5ffull_5fpid_5ffw_20module',['guidance_full_pid_fw module',['../module__guidance_full_pid_fw.html',1,'onboard_modules']]],
   ['guidance_5fhybrid_20module',['guidance_hybrid module',['../module__guidance_hybrid.html',1,'onboard_modules']]],
   ['guidance_5findi_20module',['guidance_indi module',['../module__guidance_indi.html',1,'onboard_modules']]],
+  ['guidance_5findi_5fhybrid_20module',['guidance_indi_hybrid module',['../module__guidance_indi_hybrid.html',1,'onboard_modules']]],
   ['guidance_5frotorcraft_20module',['guidance_rotorcraft module',['../module__guidance_rotorcraft.html',1,'onboard_modules']]],
   ['guidance_5frover_20module',['guidance_rover module',['../module__guidance_rover.html',1,'onboard_modules']]],
   ['guidance_5frover_5fholonomic_20module',['guidance_rover_holonomic module',['../module__guidance_rover_holonomic.html',1,'onboard_modules']]],

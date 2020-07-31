@@ -16,6 +16,7 @@ var searchData=
   ['object_5ftracking_5fsearch_5frate',['object_tracking_search_rate',['../object__tracking_8c.html#a2cd1b745010283798d2777508dc849ce',1,'object_tracking_search_rate():&#160;object_tracking.c'],['../object__tracking_8h.html#a2cd1b745010283798d2777508dc849ce',1,'object_tracking_search_rate():&#160;object_tracking.c']]],
   ['obs_5fdata',['obs_data',['../boards_2disco_2actuators_8c.html#a5745d25d53f3624956015ed3e4c0e7c7',1,'actuators.c']]],
   ['obs_5fheight',['obs_height',['../vf__extended__float_8h.html#a2c41fbcda470f2d89d9f5103c648d348',1,'VffExtended']]],
+  ['obstacle_5fconfidence',['obstacle_confidence',['../wedgebug_8c.html#ae334bebf9b2a045e286d873c65235d3a',1,'wedgebug.c']]],
   ['obstacle_5fdetected',['obstacle_detected',['../avoid__navigation_8c.html#a845d6487ece3094af3ea210a11490ecd',1,'obstacle_detected():&#160;avoid_navigation.c'],['../avoid__navigation_8h.html#a845d6487ece3094af3ea210a11490ecd',1,'obstacle_detected():&#160;avoid_navigation.c']]],
   ['obstacle_5fev',['obstacle_ev',['../range__forcefield_8c.html#ad744b323322dde5c86f313442839511c',1,'range_forcefield.c']]],
   ['obstacle_5fflag',['obstacle_flag',['../obstacle__avoidance_8c.html#ab1eeda0c19608ea45fbaac12da783375',1,'obstacle_avoidance.c']]],

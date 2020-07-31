@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -387,7 +387,7 @@ $(document).ready(function(){initNavTree('rotorcraft_2main__fbw_8c_source.html',
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;  <a class="code" href="group__mcu__periph.html#gaf44fd3e4d3d56943e4d0e89100974b07">mcu_event</a>();</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  <span class="comment">/* Handle RC */</span></div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  <a class="code" href="dummy_8h.html#a48c5aff514f8ac1ab891bb12b748922b">RadioControlEvent</a>(<a class="code" href="rotorcraft_2main__fbw_8c.html#a9315fe63b323bff7e8b6a46ceb10138f">fbw_on_rc_frame</a>);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  <a class="code" href="cc2500__paparazzi_8h.html#a48c5aff514f8ac1ab891bb12b748922b">RadioControlEvent</a>(<a class="code" href="rotorcraft_2main__fbw_8c.html#a9315fe63b323bff7e8b6a46ceb10138f">fbw_on_rc_frame</a>);</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;  <span class="comment">/* InterMCU (gives autopilot commands as output) */</span></div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;  <a class="code" href="intermcu__fbw_8c.html#a33141c0ab91bcac2e0d5862739d728aa">InterMcuEvent</a>(<a class="code" href="rotorcraft_2main__fbw_8c.html#aa08cd441cb967eb3e901b4e8783fac23">fbw_on_ap_command</a>);</div>
@@ -402,6 +402,7 @@ $(document).ready(function(){initNavTree('rotorcraft_2main__fbw_8c_source.html',
 <div class="ttc" id="rotorcraft_2main__fbw_8c_html_a642adb8e14e348b49a460cadebe6608b"><div class="ttname"><a href="rotorcraft_2main__fbw_8c.html#a642adb8e14e348b49a460cadebe6608b">radio_control_tid</a></div><div class="ttdeci">tid_t radio_control_tid</div><div class="ttdoc">id for radio_control_periodic_task() timer </div><div class="ttdef"><b>Definition:</b> <a href="rotorcraft_2main__fbw_8c_source.html#l00069">main_fbw.c:69</a></div></div>
 <div class="ttc" id="rotorcraft_2main__fbw_8c_html_a78999b158f7adedebd44829411f69d53"><div class="ttname"><a href="rotorcraft_2main__fbw_8c.html#a78999b158f7adedebd44829411f69d53">fbw_motors_on</a></div><div class="ttdeci">bool fbw_motors_on</div><div class="ttdef"><b>Definition:</b> <a href="rotorcraft_2main__fbw_8c_source.html#l00060">main_fbw.c:60</a></div></div>
 <div class="ttc" id="rotorcraft_2main__fbw_8c_html_ad0fb4f12833cb2f0b4c69fa317ea24d9"><div class="ttname"><a href="rotorcraft_2main__fbw_8c.html#ad0fb4f12833cb2f0b4c69fa317ea24d9">main_event</a></div><div class="ttdeci">void main_event(void)</div><div class="ttdef"><b>Definition:</b> <a href="rotorcraft_2main__fbw_8c_source.html#l00285">main_fbw.c:285</a></div></div>
+<div class="ttc" id="cc2500__paparazzi_8h_html_a48c5aff514f8ac1ab891bb12b748922b"><div class="ttname"><a href="cc2500__paparazzi_8h.html#a48c5aff514f8ac1ab891bb12b748922b">RadioControlEvent</a></div><div class="ttdeci">#define RadioControlEvent(_received_frame_handler)</div><div class="ttdef"><b>Definition:</b> <a href="cc2500__paparazzi_8h_source.html#l00037">cc2500_paparazzi.h:37</a></div></div>
 <div class="ttc" id="rotorcraft_2main__fbw_8c_html_ad22206414845137916e0ed83054bdfc8"><div class="ttname"><a href="rotorcraft_2main__fbw_8c.html#ad22206414845137916e0ed83054bdfc8">modules_tid</a></div><div class="ttdeci">tid_t modules_tid</div><div class="ttdoc">id for modules_periodic_task() timer </div><div class="ttdef"><b>Definition:</b> <a href="rotorcraft_2main__fbw_8c_source.html#l00068">main_fbw.c:68</a></div></div>
 <div class="ttc" id="paparazzi_8h_html_aa403b9f7966b26d3ec9a52303deda944"><div class="ttname"><a href="paparazzi_8h.html#aa403b9f7966b26d3ec9a52303deda944">MIN_PPRZ</a></div><div class="ttdeci">#define MIN_PPRZ</div><div class="ttdef"><b>Definition:</b> <a href="paparazzi_8h_source.html#l00009">paparazzi.h:9</a></div></div>
 <div class="ttc" id="intermcu__fbw_8c_html_a9c64530afb6fb7ea386b9e57bfc0275d"><div class="ttname"><a href="intermcu__fbw_8c.html#a9c64530afb6fb7ea386b9e57bfc0275d">intermcu_commands</a></div><div class="ttdeci">pprz_t intermcu_commands[COMMANDS_NB]</div><div class="ttdef"><b>Definition:</b> <a href="intermcu__fbw_8c_source.html#l00063">intermcu_fbw.c:63</a></div></div>
@@ -424,7 +425,6 @@ $(document).ready(function(){initNavTree('rotorcraft_2main__fbw_8c_source.html',
 <div class="ttc" id="commands_8c_html_a88b3a12659adc4151ddd6cbef8bd4187"><div class="ttname"><a href="commands_8c.html#a88b3a12659adc4151ddd6cbef8bd4187">commands_failsafe</a></div><div class="ttdeci">const pprz_t commands_failsafe[COMMANDS_NB]</div><div class="ttdef"><b>Definition:</b> <a href="commands_8c_source.html#l00031">commands.c:31</a></div></div>
 <div class="ttc" id="rotorcraft_2main__fbw_8h_html_af4086243bdaea71d4dfd3c03883cab31"><div class="ttname"><a href="rotorcraft_2main__fbw_8h.html#af4086243bdaea71d4dfd3c03883cab31">fbw_mode_enum</a></div><div class="ttdeci">fbw_mode_enum</div><div class="ttdef"><b>Definition:</b> <a href="rotorcraft_2main__fbw_8h_source.html#l00064">main_fbw.h:64</a></div></div>
 <div class="ttc" id="intermcu__fbw_8h_html"><div class="ttname"><a href="intermcu__fbw_8h.html">intermcu_fbw.h</a></div><div class="ttdoc">Rotorcraft Inter-MCU on FlyByWire. </div></div>
-<div class="ttc" id="dummy_8h_html_a48c5aff514f8ac1ab891bb12b748922b"><div class="ttname"><a href="dummy_8h.html#a48c5aff514f8ac1ab891bb12b748922b">RadioControlEvent</a></div><div class="ttdeci">#define RadioControlEvent(_received_frame_handler)</div><div class="ttdef"><b>Definition:</b> <a href="dummy_8h_source.html#l00028">dummy.h:28</a></div></div>
 <div class="ttc" id="intermcu_8h_html_a2fa812ca2ff84269120f6ba35bef57e2a4ab46b2ecb30fb3ba7832233cd879396"><div class="ttname"><a href="intermcu_8h.html#a2fa812ca2ff84269120f6ba35bef57e2a4ab46b2ecb30fb3ba7832233cd879396">INTERMCU_LOST</a></div><div class="ttdoc">No interMCU communication anymore. </div><div class="ttdef"><b>Definition:</b> <a href="intermcu_8h_source.html#l00046">intermcu.h:46</a></div></div>
 <div class="ttc" id="subsystems_2actuators_8h_html"><div class="ttname"><a href="subsystems_2actuators_8h.html">actuators.h</a></div><div class="ttdoc">Hardware independent API for actuators (servos, motor controllers). </div></div>
 <div class="ttc" id="electrical_8c_html_ac5e9a56281268bdf6ddec2143b25f16a"><div class="ttname"><a href="electrical_8c.html#ac5e9a56281268bdf6ddec2143b25f16a">electrical_init</a></div><div class="ttdeci">void electrical_init(void)</div><div class="ttdef"><b>Definition:</b> <a href="electrical_8c_source.html#l00100">electrical.c:100</a></div></div>
@@ -475,7 +475,7 @@ $(document).ready(function(){initNavTree('rotorcraft_2main__fbw_8c_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_e7d2494544042a787a6ee70a779a5e07.html">firmwares</a></li><li class="navelem"><a class="el" href="dir_e37d355c72eb7c8e5b43c34bdea5a24b.html">rotorcraft</a></li><li class="navelem"><a class="el" href="rotorcraft_2main__fbw_8c.html">main_fbw.c</a></li>
-    <li class="footer">Generated on Fri May 15 2020 04:02:14 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:02:16 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

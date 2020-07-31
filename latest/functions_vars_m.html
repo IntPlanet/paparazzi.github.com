@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -337,7 +337,8 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="px4flow_8h.html#ac3033126ff988e765032033b4a5e705f">mavlink_heartbeat</a>
 </li>
 <li>max
-: <a class="el" href="nps__sensor__accel_8h.html#a043fd6d64ff5ebe4509e2e70c43e5a03">NpsSensorAccel</a>
+: <a class="el" href="ctrl__windtunnel_8h.html#ae01065d305a106092b053080f7e6397a">min_max_ctrl_t</a>
+, <a class="el" href="nps__sensor__accel_8h.html#a043fd6d64ff5ebe4509e2e70c43e5a03">NpsSensorAccel</a>
 , <a class="el" href="nps__sensor__gyro_8h.html#ab7e92e7373b3cf0a6c858a14d09e352c">NpsSensorGyro</a>
 , <a class="el" href="nps__sensor__mag_8h.html#ab8f0ab3583195c0e680780deb2a2f769">NpsSensorMag</a>
 </li>
@@ -348,6 +349,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 </li>
 <li>max_ang_momentum
 : <a class="el" href="nps__fdm__gazebo_8cpp.html#a72e31f68945bafa99608f9a60031f674">gazebo_actuators_t</a>
+</li>
+<li>max_aux_channel
+: <a class="el" href="cc2500__settings_8h.html#acace729ffe13225077853ffd1ab4d3b7">rxConfig_s</a>
 </li>
 <li>max_inc
 : <a class="el" href="delayed__first__order__lowpass__filter_8h.html#ac753192adc4c86378b001e3f6948e565">delayed_first_order_lowpass_filter_t</a>
@@ -502,8 +506,12 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>middle_index
 : <a class="el" href="bebop__ae__awb_8h.html#a6378a7a55ce941bcbc5ed222ae091d82">ae_setting_t</a>
 </li>
+<li>midrc
+: <a class="el" href="cc2500__settings_8h.html#a413e18afb030caffe6cead58c8736145">rxConfig_s</a>
+</li>
 <li>min
-: <a class="el" href="nps__sensor__accel_8h.html#a32d598f4a3855ded38582ef84937c060">NpsSensorAccel</a>
+: <a class="el" href="ctrl__windtunnel_8h.html#a74e7e352da8f1263e7310d57983acad4">min_max_ctrl_t</a>
+, <a class="el" href="nps__sensor__accel_8h.html#a32d598f4a3855ded38582ef84937c060">NpsSensorAccel</a>
 , <a class="el" href="nps__sensor__gyro_8h.html#a50efda6e74898f022ddee7faa8af3914">NpsSensorGyro</a>
 , <a class="el" href="nps__sensor__mag_8h.html#af7dea97cbbaa9d06a4eec7daef65e26e">NpsSensorMag</a>
 , <a class="el" href="lpcRTC_8h.html#a39ca16985c3275f831aa53b895de67a6">rtcRegs_t</a>
@@ -631,7 +639,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 , <a class="el" href="imu__mpu6000_8h.html#a26900278f34fb5c6605b8738bd9ec289">ImuMpu6000</a>
 , <a class="el" href="imu__mpu6000__hmc5883_8h.html#a478e1aee874d3ededf2781c9cbf14ab5">ImuMpu6000Hmc5883</a>
 , <a class="el" href="imu__mpu60x0__i2c_8h.html#aa740baedc08188687c2bc4bdd1e6e1a0">ImuMpu60x0</a>
-, <a class="el" href="imu__mpu9250__spi_8h.html#a78a7077378ca47f519e1637089f69ae0">ImuMpu9250</a>
+, <a class="el" href="imu__mpu9250__spi_8h.html#a5239f1ebbc37e50b3c06de3e3cb530f5">ImuMpu9250</a>
 , <a class="el" href="imu__navstik_8h.html#a9998e6bbc3dbec4bb8dce09c47f99cd1">ImuNavstik</a>
 , <a class="el" href="imu__px4fmu_8h.html#ae9d72b5d7fae79662629c370a52caa01">ImuPx4fmu</a>
 , <a class="el" href="imu__swing_8h.html#a9a4b34fd82d7870b1c343f47fb6cf5af">ImuSwing</a>
@@ -805,7 +813,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri May 15 2020 04:04:08 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:04:14 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

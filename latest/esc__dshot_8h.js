@@ -42,7 +42,8 @@ var esc__dshot_8h =
     [ "DSHOT_BIT_WIDTHS", "esc__dshot_8h.html#a29035737910ed42cd0b02b86ffd0489c", null ],
     [ "DSHOT_CHANNELS", "esc__dshot_8h.html#a111562bc351f4a19293c98094cf1fd2d", null ],
     [ "DSHOT_DMA_BUFFER_SIZE", "esc__dshot_8h.html#a42f7d6070cbff87fb88786e7cdb644e1", null ],
-    [ "DSHOT_FRAME_SILENT_SYNC_BITS", "esc__dshot_8h.html#af91dfbc1b5b691a4370bd6e13b186867", null ],
+    [ "DSHOT_POST_FRAME_SILENT_SYNC_BITS", "esc__dshot_8h.html#a68a168051008bf17fb04e3c222273f2a", null ],
+    [ "DSHOT_PRE_FRAME_SILENT_SYNC_BITS", "esc__dshot_8h.html#a095138f75fff056771471310e0a4b7af", null ],
     [ "DSHOTDriver", "esc__dshot_8h.html#aaa2d3b91bca65a52b00c814b2ae80ed4", null ],
     [ "dshot_special_commands_t", "esc__dshot_8h.html#ae8e98535a8d2595a944f4164ae37ecde", [
       [ "DSHOT_CMD_MOTOR_STOP", "esc__dshot_8h.html#ae8e98535a8d2595a944f4164ae37ecdeab0c3021655f17e6b4bfee1ec7b5fe3ad", null ],

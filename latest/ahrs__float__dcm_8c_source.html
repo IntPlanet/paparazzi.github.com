@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -284,7 +284,7 @@ $(document).ready(function(){initNavTree('ahrs__float__dcm_8c_source.html','');}
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  }</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  <a class="code" href="ahrs__float__dcm_8c.html#abe6f07e47a8e6e8f95b62082e009821a">ahrs_dcm</a>.<a class="code" href="ahrs__float__dcm_8h.html#a6d23bce9b87f444bc7f041f7f725f06e">gps_acceleration</a> += (((<a class="code" href="ahrs__float__dcm_8c.html#abe6f07e47a8e6e8f95b62082e009821a">ahrs_dcm</a>.<a class="code" href="ahrs__float__dcm_8h.html#a28bef6d72c3eeb78beaa36afb5202716">gps_speed</a> - last_gps_speed_3d) * 4.0f)  - <a class="code" href="ahrs__float__dcm_8c.html#abe6f07e47a8e6e8f95b62082e009821a">ahrs_dcm</a>.<a class="code" href="ahrs__float__dcm_8h.html#a6d23bce9b87f444bc7f041f7f725f06e">gps_acceleration</a>) / 5.0f;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  <a class="code" href="ahrs__float__dcm_8c.html#abe6f07e47a8e6e8f95b62082e009821a">ahrs_dcm</a>.<a class="code" href="ahrs__float__dcm_8h.html#a6d23bce9b87f444bc7f041f7f725f06e">gps_acceleration</a> += (((<a class="code" href="ahrs__float__dcm_8c.html#abe6f07e47a8e6e8f95b62082e009821a">ahrs_dcm</a>.<a class="code" href="ahrs__float__dcm_8h.html#a28bef6d72c3eeb78beaa36afb5202716">gps_speed</a> - last_gps_speed_3d) * 4.0<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a>)  - <a class="code" href="ahrs__float__dcm_8c.html#abe6f07e47a8e6e8f95b62082e009821a">ahrs_dcm</a>.<a class="code" href="ahrs__float__dcm_8h.html#a6d23bce9b87f444bc7f041f7f725f06e">gps_acceleration</a>) / 5.0<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a>;</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  last_gps_speed_3d = <a class="code" href="ahrs__float__dcm_8c.html#abe6f07e47a8e6e8f95b62082e009821a">ahrs_dcm</a>.<a class="code" href="ahrs__float__dcm_8h.html#a28bef6d72c3eeb78beaa36afb5202716">gps_speed</a>;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;}</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
@@ -399,7 +399,7 @@ $(document).ready(function(){initNavTree('ahrs__float__dcm_8c_source.html','');}
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;  <span class="comment">// a) if norm is close to 1, use the fast 1st element from the tailer expansion of SQRT</span></div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;  <span class="comment">// b) if the norm is further from 1, use a real sqrt</span></div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;  <span class="comment">// c) norm is huge: disaster! reset! mayday!</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;  <span class="keywordflow">if</span> (renorm &lt; 1.5625f &amp;&amp; renorm &gt; 0.64f) {</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;  <span class="keywordflow">if</span> (renorm &lt; 1.5625f &amp;&amp; renorm &gt; 0.64<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a>) {</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    renorm = .5 * (3 - renorm);                                       <span class="comment">//eq.21</span></div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (renorm &lt; 100.0f &amp;&amp; renorm &gt; 0.01f) {</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    renorm = 1. / sqrtf(renorm);</div>
@@ -495,7 +495,7 @@ $(document).ready(function(){initNavTree('ahrs__float__dcm_8c_source.html','');}
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <span class="comment">// Dynamic weighting of accelerometer info (reliability filter)</span></div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <span class="comment">// Weight for accelerometer info according to band size (min value is 0.1 to prevent division by zero)</span></div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  Accel_weight = Clip(1.f - (2.f / <a class="code" href="rotorcraft_2main__fbw_8c.html#a56957c78144b268fbcdbf7d9fb5acafe">Max</a>(0.1f,<a class="code" href="ahrs__float__dcm_8c.html#ac3c51dcbd49ca0b36f5759f96d232b64">ACCEL_WEIGHT_BAND</a>)) * fabsf(1.f - Accel_filtered), 0.f, 1.f);</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  Accel_weight = Clip(1.<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a> - (2.<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a> / <a class="code" href="rotorcraft_2main__fbw_8c.html#a56957c78144b268fbcdbf7d9fb5acafe">Max</a>(0.1<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a>,<a class="code" href="ahrs__float__dcm_8c.html#ac3c51dcbd49ca0b36f5759f96d232b64">ACCEL_WEIGHT_BAND</a>)) * fabsf(1.<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a> - Accel_filtered), 0.<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a>, 1.<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a>);</div>
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;<span class="preprocessor">#if PERFORMANCE_REPORTING == 1</span></div>
@@ -568,7 +568,7 @@ $(document).ready(function(){initNavTree('ahrs__float__dcm_8c_source.html','');}
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;  <span class="comment">//  Here we will place a limit on the integrator so that the integrator cannot ever exceed half the saturation limit of the gyros</span></div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;  Integrator_magnitude = sqrtf(<a class="code" href="ahrs__float__dcm__algebra_8h.html#abbc7df880bf45106d0b2fcc0f9ad7fde">Vector_Dot_Product</a>(<a class="code" href="ahrs__float__dcm_8c.html#a2984dc102d0f60e5682814c3a9738c2c">Omega_I</a>, <a class="code" href="ahrs__float__dcm_8c.html#a2984dc102d0f60e5682814c3a9738c2c">Omega_I</a>));</div>
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;  <span class="keywordflow">if</span> (Integrator_magnitude &gt; RadOfDeg(300)) {</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    <a class="code" href="ahrs__float__dcm__algebra_8h.html#aa2ea17a2b7db25753df083f03cff1a33">Vector_Scale</a>(<a class="code" href="ahrs__float__dcm_8c.html#a2984dc102d0f60e5682814c3a9738c2c">Omega_I</a>, <a class="code" href="ahrs__float__dcm_8c.html#a2984dc102d0f60e5682814c3a9738c2c">Omega_I</a>, 0.5f * RadOfDeg(300) / Integrator_magnitude);</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    <a class="code" href="ahrs__float__dcm__algebra_8h.html#aa2ea17a2b7db25753df083f03cff1a33">Vector_Scale</a>(<a class="code" href="ahrs__float__dcm_8c.html#a2984dc102d0f60e5682814c3a9738c2c">Omega_I</a>, <a class="code" href="ahrs__float__dcm_8c.html#a2984dc102d0f60e5682814c3a9738c2c">Omega_I</a>, 0.5<a class="code" href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a> * RadOfDeg(300) / Integrator_magnitude);</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;  }</div>
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;</div>
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;</div>
@@ -701,6 +701,7 @@ $(document).ready(function(){initNavTree('ahrs__float__dcm_8c_source.html','');}
 <div class="ttc" id="ahrs__float__dcm_8c_html_af6ae5229becb1414fbef533329174466"><div class="ttname"><a href="ahrs__float__dcm_8c.html#af6ae5229becb1414fbef533329174466">ahrs_dcm_update_gps</a></div><div class="ttdeci">void ahrs_dcm_update_gps(struct GpsState *gps_s)</div><div class="ttdef"><b>Definition:</b> <a href="ahrs__float__dcm_8c_source.html#l00169">ahrs_float_dcm.c:169</a></div></div>
 <div class="ttc" id="ahrs__float__dcm_8h_html_a1f759bdb110191cd919fa1dbc465f84a"><div class="ttname"><a href="ahrs__float__dcm_8h.html#a1f759bdb110191cd919fa1dbc465f84a">AhrsFloatDCM::is_aligned</a></div><div class="ttdeci">bool is_aligned</div><div class="ttdef"><b>Definition:</b> <a href="ahrs__float__dcm_8h_source.html#l00053">ahrs_float_dcm.h:53</a></div></div>
 <div class="ttc" id="ahrs__float__dcm_8c_html_a9e8f7f86867387eac6081a8b23ea9533"><div class="ttname"><a href="ahrs__float__dcm_8c.html#a9e8f7f86867387eac6081a8b23ea9533">ahrs_dcm_update_accel</a></div><div class="ttdeci">void ahrs_dcm_update_accel(struct FloatVect3 *accel)</div><div class="ttdef"><b>Definition:</b> <a href="ahrs__float__dcm_8c_source.html#l00194">ahrs_float_dcm.c:194</a></div></div>
+<div class="ttc" id="wedgebug_8c_html_a05fd2dba3354a98f1a00b7c7ffc12b13"><div class="ttname"><a href="wedgebug_8c.html#a05fd2dba3354a98f1a00b7c7ffc12b13">f</a></div><div class="ttdeci">uint16_t f</div><div class="ttdoc">Camera baseline, in meters (i.e. horizontal distance between the two cameras of the stereo setup) ...</div><div class="ttdef"><b>Definition:</b> <a href="wedgebug_8c_source.html#l00204">wedgebug.c:204</a></div></div>
 <div class="ttc" id="group__math__algebra__float_html_aa44c74404cf8ef0b143066e970352adb"><div class="ttname"><a href="group__math__algebra__float.html#aa44c74404cf8ef0b143066e970352adb">FloatVect3::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition:</b> <a href="pprz__algebra__float_8h_source.html#l00055">pprz_algebra_float.h:55</a></div></div>
 <div class="ttc" id="ahrs__float__dcm_8c_html_ab320166f60135defa2bcc392025ac5d5"><div class="ttname"><a href="ahrs__float__dcm_8c.html#ab320166f60135defa2bcc392025ac5d5">ACCEL_WEIGHT_FILTER</a></div><div class="ttdeci">#define ACCEL_WEIGHT_FILTER</div><div class="ttdef"><b>Definition:</b> <a href="ahrs__float__dcm_8c_source.html#l00363">ahrs_float_dcm.c:363</a></div></div>
 <div class="ttc" id="std_8h_html"><div class="ttname"><a href="std_8h.html">std.h</a></div></div>
@@ -749,7 +750,7 @@ $(document).ready(function(){initNavTree('ahrs__float__dcm_8c_source.html','');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_12d6ec7aac5a4a9b8cee17e35022d7c7.html">subsystems</a></li><li class="navelem"><a class="el" href="dir_46fef683200e96ccf1a2f608d90c4a2d.html">ahrs</a></li><li class="navelem"><a class="el" href="ahrs__float__dcm_8c.html">ahrs_float_dcm.c</a></li>
-    <li class="footer">Generated on Fri May 15 2020 04:02:33 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:02:36 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

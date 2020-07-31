@@ -29,6 +29,7 @@ var searchData=
   ['dc_5ftaller',['DC_TALLER',['../dc_8h.html#a5bcad6137b0e9f54ae973b52e8a94d34adb654606b6903dfa316f5ecae39e378a',1,'dc.h']]],
   ['dc_5fup',['DC_UP',['../dc_8h.html#a5bcad6137b0e9f54ae973b52e8a94d34a80bb7e813c0c9170baad5118b8753b84',1,'dc.h']]],
   ['dc_5fwider',['DC_WIDER',['../dc_8h.html#a5bcad6137b0e9f54ae973b52e8a94d34a6f7a704df22428ad15570dee4f1337b8',1,'dc.h']]],
+  ['direct_5fcontrol',['DIRECT_CONTROL',['../wedgebug_8c.html#aacc2ed6154766d07165e8e8e06aeb3d3ad90f991f9b4af00575990799f9dd80e6',1,'wedgebug.c']]],
   ['direction',['DIRECTION',['../esc32_8h.html#a7d7ff77147834c43663d3dfd1f263610a29e2c300ecd12ceecf4ab3fb87bbdafc',1,'esc32.h']]],
   ['dma_5factive',['DMA_ACTIVE',['../hal__stm32__dma_8h.html#aafa629edee3e18077e1f9fe62ccd170ea4e7927d60ccb2b24b38a077b6f58217c',1,'hal_stm32_dma.h']]],
   ['dma_5fcomplete',['DMA_COMPLETE',['../hal__stm32__dma_8h.html#aafa629edee3e18077e1f9fe62ccd170eae6e79fc4e02584bc3d353ac9c9c6e864',1,'hal_stm32_dma.h']]],

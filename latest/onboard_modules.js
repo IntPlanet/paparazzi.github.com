@@ -600,6 +600,12 @@ var onboard_modules =
         [ "Raw ctrl_module_outerloop_demo.xml file:", "module__ctrl_module_outerloop_demo.html#module_xml__ctrl_module_outerloop_demo", null ]
       ] ]
     ] ],
+    [ "ctrl_windtunnel module", "module__ctrl_windtunnel.html", [
+      [ "Example for airframe file", "module__ctrl_windtunnel.html#module_load_example__ctrl_windtunnel", null ],
+      [ "Module configuration options", "module__ctrl_windtunnel.html#configuration__ctrl_windtunnel", [
+        [ "Raw ctrl_windtunnel.xml file:", "module__ctrl_windtunnel.html#module_xml__ctrl_windtunnel", null ]
+      ] ]
+    ] ],
     [ "gain_scheduling module", "module__gain_scheduling.html", [
       [ "Example for airframe file", "module__gain_scheduling.html#module_load_example__gain_scheduling", null ],
       [ "Module functions", "module__gain_scheduling.html#functions__gain_scheduling", [
@@ -724,6 +730,13 @@ var onboard_modules =
       [ "Auto-loaded modules", "module__telemetry_transparent.html#autoloads__telemetry_transparent", null ],
       [ "Module functions", "module__telemetry_transparent.html#functions__telemetry_transparent", [
         [ "Raw telemetry_transparent.xml file:", "module__telemetry_transparent.html#module_xml__telemetry_transparent", null ]
+      ] ]
+    ] ],
+    [ "telemetry_transparent_frsky_x module", "module__telemetry_transparent_frsky_x.html", [
+      [ "Example for airframe file", "module__telemetry_transparent_frsky_x.html#module_load_example__telemetry_transparent_frsky_x", null ],
+      [ "Auto-loaded modules", "module__telemetry_transparent_frsky_x.html#autoloads__telemetry_transparent_frsky_x", null ],
+      [ "Module functions", "module__telemetry_transparent_frsky_x.html#functions__telemetry_transparent_frsky_x", [
+        [ "Raw telemetry_transparent_frsky_x.xml file:", "module__telemetry_transparent_frsky_x.html#module_xml__telemetry_transparent_frsky_x", null ]
       ] ]
     ] ],
     [ "telemetry_transparent_gec module", "module__telemetry_transparent_gec.html", [
@@ -1033,6 +1046,12 @@ var onboard_modules =
       [ "Example for airframe file", "module__guidance_indi.html#module_load_example__guidance_indi", null ],
       [ "Module functions", "module__guidance_indi.html#functions__guidance_indi", [
         [ "Raw guidance_indi.xml file:", "module__guidance_indi.html#module_xml__guidance_indi", null ]
+      ] ]
+    ] ],
+    [ "guidance_indi_hybrid module", "module__guidance_indi_hybrid.html", [
+      [ "Example for airframe file", "module__guidance_indi_hybrid.html#module_load_example__guidance_indi_hybrid", null ],
+      [ "Module functions", "module__guidance_indi_hybrid.html#functions__guidance_indi_hybrid", [
+        [ "Raw guidance_indi_hybrid.xml file:", "module__guidance_indi_hybrid.html#module_xml__guidance_indi_hybrid", null ]
       ] ]
     ] ],
     [ "guidance_rotorcraft module", "module__guidance_rotorcraft.html", [
@@ -1613,6 +1632,13 @@ var onboard_modules =
       [ "Module configuration options", "module__flight_recorder.html#configuration__flight_recorder", null ],
       [ "Module functions", "module__flight_recorder.html#functions__flight_recorder", [
         [ "Raw flight_recorder.xml file:", "module__flight_recorder.html#module_xml__flight_recorder", null ]
+      ] ]
+    ] ],
+    [ "logger_control_effectiveness module", "module__logger_control_effectiveness.html", [
+      [ "Example for airframe file", "module__logger_control_effectiveness.html#module_load_example__logger_control_effectiveness", null ],
+      [ "Module configuration options", "module__logger_control_effectiveness.html#configuration__logger_control_effectiveness", null ],
+      [ "Module functions", "module__logger_control_effectiveness.html#functions__logger_control_effectiveness", [
+        [ "Raw logger_control_effectiveness.xml file:", "module__logger_control_effectiveness.html#module_xml__logger_control_effectiveness", null ]
       ] ]
     ] ],
     [ "logger_dataflash module", "module__logger_dataflash.html", [
@@ -2902,6 +2928,13 @@ var onboard_modules =
         [ "Raw px4_gimbal.xml file:", "module__px4_gimbal.html#module_xml__px4_gimbal", null ]
       ] ]
     ] ],
+    [ "radio_control_cc2500_frsky module", "module__radio_control_cc2500_frsky.html", [
+      [ "Example for airframe file", "module__radio_control_cc2500_frsky.html#module_load_example__radio_control_cc2500_frsky", null ],
+      [ "Module configuration options", "module__radio_control_cc2500_frsky.html#configuration__radio_control_cc2500_frsky", null ],
+      [ "Module functions", "module__radio_control_cc2500_frsky.html#functions__radio_control_cc2500_frsky", [
+        [ "Raw radio_control_cc2500_frsky.xml file:", "module__radio_control_cc2500_frsky.html#module_xml__radio_control_cc2500_frsky", null ]
+      ] ]
+    ] ],
     [ "range_forcefield module", "module__range_forcefield.html", [
       [ "Example for airframe file", "module__range_forcefield.html#module_load_example__range_forcefield", null ],
       [ "Module configuration options", "module__range_forcefield.html#configuration__range_forcefield", null ],
@@ -2938,6 +2971,13 @@ var onboard_modules =
       [ "Example for airframe file", "module__spektrum_soft_bind.html#module_load_example__spektrum_soft_bind", null ],
       [ "Module functions", "module__spektrum_soft_bind.html#functions__spektrum_soft_bind", [
         [ "Raw spektrum_soft_bind.xml file:", "module__spektrum_soft_bind.html#module_xml__spektrum_soft_bind", null ]
+      ] ]
+    ] ],
+    [ "sys_id_chirp module", "module__sys_id_chirp.html", [
+      [ "Example for airframe file", "module__sys_id_chirp.html#module_load_example__sys_id_chirp", null ],
+      [ "Module configuration options", "module__sys_id_chirp.html#configuration__sys_id_chirp", null ],
+      [ "Module functions", "module__sys_id_chirp.html#functions__sys_id_chirp", [
+        [ "Raw sys_id_chirp.xml file:", "module__sys_id_chirp.html#module_xml__sys_id_chirp", null ]
       ] ]
     ] ],
     [ "syslink_dl module", "module__syslink_dl.html", [
@@ -2981,6 +3021,13 @@ var onboard_modules =
       [ "Module configuration options", "module__vms_ecu_demo.html#configuration__vms_ecu_demo", null ],
       [ "Module functions", "module__vms_ecu_demo.html#functions__vms_ecu_demo", [
         [ "Raw vms_ecu_demo.xml file:", "module__vms_ecu_demo.html#module_xml__vms_ecu_demo", null ]
+      ] ]
+    ] ],
+    [ "wedgebug module", "module__wedgebug.html", [
+      [ "Example for airframe file", "module__wedgebug.html#module_load_example__wedgebug", null ],
+      [ "Module configuration options", "module__wedgebug.html#configuration__wedgebug", null ],
+      [ "Module functions", "module__wedgebug.html#functions__wedgebug", [
+        [ "Raw wedgebug.xml file:", "module__wedgebug.html#module_xml__wedgebug", null ]
       ] ]
     ] ]
 ];

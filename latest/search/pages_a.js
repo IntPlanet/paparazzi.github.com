@@ -10,6 +10,7 @@ var searchData=
   ['light_5fscheduler_20module',['light_scheduler module',['../module__light_scheduler.html',1,'onboard_modules']]],
   ['light_5fsolar_20module',['light_solar module',['../module__light_solar.html',1,'onboard_modules']]],
   ['light_5ftemt_20module',['light_temt module',['../module__light_temt.html',1,'onboard_modules']]],
+  ['logger_5fcontrol_5feffectiveness_20module',['logger_control_effectiveness module',['../module__logger_control_effectiveness.html',1,'onboard_modules']]],
   ['logger_5fdataflash_20module',['logger_dataflash module',['../module__logger_dataflash.html',1,'onboard_modules']]],
   ['logger_5ffile_20module',['logger_file module',['../module__logger_file.html',1,'onboard_modules']]],
   ['logger_5fsd_5fchibios_20module',['logger_sd_chibios module',['../module__logger_sd_chibios.html',1,'onboard_modules']]],

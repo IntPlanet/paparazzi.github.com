@@ -18,6 +18,7 @@ var dir_c2abcdd6ccb39c3582929c0e3f5651c2 =
     [ "datalink", "dir_164c7aa663179b26059278e7f36078da.html", "dir_164c7aa663179b26059278e7f36078da" ],
     [ "decawave", "dir_0052b60a5651ac9f93ab63c946b53cbf.html", "dir_0052b60a5651ac9f93ab63c946b53cbf" ],
     [ "demo_module", "dir_42845a75b17d015b5ef92a933f21948f.html", "dir_42845a75b17d015b5ef92a933f21948f" ],
+    [ "dfu_command", "dir_b6eb9d90dc26da06d07b78a4892a4535.html", "dir_b6eb9d90dc26da06d07b78a4892a4535" ],
     [ "digital_cam", "dir_9cd42eb44f1e76fa7c8c7cd9c9a53863.html", "dir_9cd42eb44f1e76fa7c8c7cd9c9a53863" ],
     [ "display", "dir_ba28e41237872f6268f6dbae3db26982.html", "dir_ba28e41237872f6268f6dbae3db26982" ],
     [ "dragspeed", "dir_ad064ae0212a4ea2b196e6408963954a.html", "dir_ad064ae0212a4ea2b196e6408963954a" ],
@@ -63,8 +64,10 @@ var dir_c2abcdd6ccb39c3582929c0e3f5651c2 =
     [ "spektrum_soft_bind", "dir_4fce34fdfa3ee0c77fb7c89ba1db056f.html", "dir_4fce34fdfa3ee0c77fb7c89ba1db056f" ],
     [ "stereocam", "dir_3df9ff4d3eb13d31d58a513ba3c4e4bb.html", "dir_3df9ff4d3eb13d31d58a513ba3c4e4bb" ],
     [ "switching", "dir_48e2729a7857fbd238afa6214b1fc763.html", "dir_48e2729a7857fbd238afa6214b1fc763" ],
+    [ "system_identification", "dir_c284a1faf6d5815afd7007ca54e80be9.html", "dir_c284a1faf6d5815afd7007ca54e80be9" ],
     [ "telemetry", "dir_dab7dfbaf243a3c567626a250692cdbb.html", "dir_dab7dfbaf243a3c567626a250692cdbb" ],
     [ "time", "dir_63011ef7b1135673f06d06b59c577dfa.html", "dir_63011ef7b1135673f06d06b59c577dfa" ],
     [ "tlsf", "dir_2dab0067fc5855d238895e34a3d18072.html", "dir_2dab0067fc5855d238895e34a3d18072" ],
-    [ "vehicle_interface", "dir_372c0c9a1fec4794716fe8f0e2a7607d.html", "dir_372c0c9a1fec4794716fe8f0e2a7607d" ]
+    [ "vehicle_interface", "dir_372c0c9a1fec4794716fe8f0e2a7607d.html", "dir_372c0c9a1fec4794716fe8f0e2a7607d" ],
+    [ "wedgebug", "dir_b0be9e4db44222178b6b6cac00abe50a.html", "dir_b0be9e4db44222178b6b6cac00abe50a" ]
 ];

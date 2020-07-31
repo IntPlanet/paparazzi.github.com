@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.17_devel-0-g9d9a0d1</span>
+   &#160;<span id="projectnumber">v5.17_devel-24-g2ae834f</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -147,13 +147,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ad4f442e8bd54d74ee9437a738788e186"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pprz__matrix__decomp__float_8c.html#ad4f442e8bd54d74ee9437a738788e186">pprz_qr_float</a> (float **Q, float **R, float **in, int m, int n)</td></tr>
 <tr class="memdesc:ad4f442e8bd54d74ee9437a738788e186"><td class="mdescLeft">&#160;</td><td class="mdescRight">QR decomposition.  <a href="#ad4f442e8bd54d74ee9437a738788e186">More...</a><br /></td></tr>
 <tr class="separator:ad4f442e8bd54d74ee9437a738788e186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac174129986fce93a3240504458351308"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pprz__matrix__decomp__float_8c.html#ac174129986fce93a3240504458351308">pythag</a> (float a, float b)</td></tr>
+<tr class="memitem:ac174129986fce93a3240504458351308"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pprz__matrix__decomp__float_8c.html#ac174129986fce93a3240504458351308">pythag</a> (float a, float <a class="el" href="wedgebug_8c.html#a83fc1af92e29717b4513d121b0c72c7d">b</a>)</td></tr>
 <tr class="memdesc:ac174129986fce93a3240504458351308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Some SVD decomposition utility macros and functions.  <a href="#ac174129986fce93a3240504458351308">More...</a><br /></td></tr>
 <tr class="separator:ac174129986fce93a3240504458351308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ef015d22c1f50265978a23b21d13e8a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pprz__matrix__decomp__float_8c.html#a9ef015d22c1f50265978a23b21d13e8a">pprz_svd_float</a> (float **a, float *w, float **v, int m, int n)</td></tr>
 <tr class="memdesc:a9ef015d22c1f50265978a23b21d13e8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">SVD decomposition.  <a href="#a9ef015d22c1f50265978a23b21d13e8a">More...</a><br /></td></tr>
 <tr class="separator:a9ef015d22c1f50265978a23b21d13e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a232890252a145ccc1a0dd849bf13cb67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pprz__matrix__decomp__float_8c.html#a232890252a145ccc1a0dd849bf13cb67">pprz_svd_solve_float</a> (float **x, float **u, float *w, float **v, float **b, int m, int n, int l)</td></tr>
+<tr class="memitem:a232890252a145ccc1a0dd849bf13cb67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pprz__matrix__decomp__float_8c.html#a232890252a145ccc1a0dd849bf13cb67">pprz_svd_solve_float</a> (float **x, float **u, float *w, float **v, float **<a class="el" href="wedgebug_8c.html#a83fc1af92e29717b4513d121b0c72c7d">b</a>, int m, int n, int l)</td></tr>
 <tr class="memdesc:a232890252a145ccc1a0dd849bf13cb67"><td class="mdescLeft">&#160;</td><td class="mdescRight">SVD based linear solver.  <a href="#a232890252a145ccc1a0dd849bf13cb67">More...</a><br /></td></tr>
 <tr class="separator:a232890252a145ccc1a0dd849bf13cb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54d06c0137ebee41d0d006d2889ae643"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pprz__matrix__decomp__float_8c.html#a54d06c0137ebee41d0d006d2889ae643">fit_linear_model</a> (float *targets, int <a class="el" href="trilateration_8c.html#aa6702f5ca985a5b97e1534be9d374bba">D</a>, float(*samples)[<a class="el" href="trilateration_8c.html#aa6702f5ca985a5b97e1534be9d374bba">D</a>], <a class="el" href="types_8h.html#a273cf69d639a59973b6019625df33e30">uint16_t</a> count, bool use_bias, float *params, float *fit_error)</td></tr>
@@ -530,7 +530,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="pprz__matrix__decomp__float_8c_source.html#l00089">89</a> of file <a class="el" href="pprz__matrix__decomp__float_8c_source.html">pprz_matrix_decomp_float.c</a>.</p>
 
-<p>References <a class="el" href="pprz__algebra__float_8h_source.html#l00839">float_mat_col()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00656">float_mat_copy()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00812">float_mat_minor()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00715">float_mat_mul()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00685">float_mat_transpose_square()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00825">float_mat_vmul()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00604">float_vect_norm()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00595">float_vect_sdiv()</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00160">Int32RMat::m</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00635">MAKE_MATRIX_PTR</a>, <a class="el" href="discrete__ekf__no__north_8c_source.html#l00034">z1</a>, and <a class="el" href="discrete__ekf__no__north_8c_source.html#l00034">z2</a>.</p>
+<p>References <a class="el" href="wedgebug_8c_source.html#l00202">b</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00839">float_mat_col()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00656">float_mat_copy()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00812">float_mat_minor()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00715">float_mat_mul()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00685">float_mat_transpose_square()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00825">float_mat_vmul()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00604">float_vect_norm()</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00595">float_vect_sdiv()</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00160">Int32RMat::m</a>, <a class="el" href="pprz__algebra__float_8h_source.html#l00635">MAKE_MATRIX_PTR</a>, <a class="el" href="discrete__ekf__no__north_8c_source.html#l00034">z1</a>, and <a class="el" href="discrete__ekf__no__north_8c_source.html#l00034">z2</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -784,7 +784,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_29343b6f5fcd4b75a5dfbb985ff56864.html">math</a></li><li class="navelem"><a class="el" href="pprz__matrix__decomp__float_8c.html">pprz_matrix_decomp_float.c</a></li>
-    <li class="footer">Generated on Fri May 15 2020 04:03:05 for Paparazzi UAS by
+    <li class="footer">Generated on Fri Jul 31 2020 12:03:08 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

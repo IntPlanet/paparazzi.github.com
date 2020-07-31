@@ -139,6 +139,8 @@ var searchData=
   ['beeper_5fgpio',['BEEPER_GPIO',['../krooz__sd_8h.html#a77fe6bd05ab6caa4fc9137f076ed0e14',1,'krooz_sd.h']]],
   ['beeper_5fgpio_5fclk',['BEEPER_GPIO_CLK',['../krooz__sd_8h.html#ac5e248e32a2e99ec863fa08bca66f756',1,'krooz_sd.h']]],
   ['beeper_5fgpio_5fpin',['BEEPER_GPIO_PIN',['../krooz__sd_8h.html#a87294949752ca79a3103a050b89532d5',1,'krooz_sd.h']]],
+  ['bind_5fbutton_5fgpio',['BIND_BUTTON_GPIO',['../crazybee__f4__1_80_8h.html#ae3fd1c36837ff07c284af91d9fdd6883',1,'crazybee_f4_1.0.h']]],
+  ['bind_5fbutton_5fpin',['BIND_BUTTON_PIN',['../crazybee__f4__1_80_8h.html#a9f58619cdc635ccfe20f1945d4385857',1,'crazybee_f4_1.0.h']]],
   ['bit',['BIT',['../virt2phys_8c.html#a4af0eb308fa447e114c2839fb9fdec68',1,'virt2phys.c']]],
   ['bit_5fnumber',['BIT_NUMBER',['../boards_2ardrone_2actuators_8c.html#ad87a7f48bd6ebc50a23c03b0b84490ed',1,'actuators.c']]],
   ['bit_5fx_5fis_5fset_5fin_5freg',['BIT_X_IS_SET_IN_REG',['../stm32_2mcu__periph_2i2c__arch_8c.html#a007bb527478e35deb7dd7bac8a81ae96',1,'i2c_arch.c']]],
@@ -340,6 +342,7 @@ var searchData=
   ['board_5fbebop',['BOARD_BEBOP',['../bebop_8h.html#a318522acd53f9093b0b51553ac2cd96c',1,'bebop.h']]],
   ['board_5fchimera',['BOARD_CHIMERA',['../chimera_2chibios_2v1_80_2board_8h.html#a380bee891ec2d53ab42ee637b0d9aa47',1,'BOARD_CHIMERA():&#160;board.h'],['../chimera_8h.html#a380bee891ec2d53ab42ee637b0d9aa47',1,'BOARD_CHIMERA():&#160;chimera.h']]],
   ['board_5fcjmcu',['BOARD_CJMCU',['../cjmcu_8h.html#ac0317b07ed4e221518a953468e8595df',1,'cjmcu.h']]],
+  ['board_5fcrazybee_5ff4_5fv1',['BOARD_CRAZYBEE_F4_V1',['../crazybee__f4__1_80_8h.html#a3b1677288e2547d76434eeeed3d55378',1,'crazybee_f4_1.0.h']]],
   ['board_5fcrazyflie',['BOARD_CRAZYFLIE',['../crazyflie_8h.html#aeb333eacf2917ece1d40450c2d3a7068',1,'crazyflie.h']]],
   ['board_5fdisco',['BOARD_DISCO',['../disco_8h.html#a0bd4697e31b2ceddbb7f20f7c3928f77',1,'disco.h']]],
   ['board_5felle0',['BOARD_ELLE0',['../elle0__common_8h.html#a090abba46e4f2f928311741c330230a3',1,'elle0_common.h']]],
@@ -398,6 +401,8 @@ var searchData=
   ['bungee_5ftakeoff_5fmin_5fspeed',['BUNGEE_TAKEOFF_MIN_SPEED',['../nav__bungee__takeoff_8c.html#a8409c736b1809c2a67bd672e723f9aa4',1,'nav_bungee_takeoff.c']]],
   ['bungee_5ftakeoff_5fpitch',['BUNGEE_TAKEOFF_PITCH',['../nav__bungee__takeoff_8c.html#a7f6a50623d7496c348298a342dc0fc0f',1,'nav_bungee_takeoff.c']]],
   ['bungee_5ftakeoff_5fthrottle',['BUNGEE_TAKEOFF_THROTTLE',['../nav__bungee__takeoff_8c.html#a6a1dd6691dd295ebcd2f9d2f1c9550c1',1,'nav_bungee_takeoff.c']]],
+  ['button_5fgpio',['BUTTON_GPIO',['../cc2500__settings_8c.html#adda64705ed47e4f6f43a72618e92282e',1,'cc2500_settings.c']]],
+  ['button_5fpin',['BUTTON_PIN',['../cc2500__settings_8c.html#a360fb747440d05085fc88e9268bb7b76',1,'cc2500_settings.c']]],
   ['buzzer_5fgpio',['BUZZER_GPIO',['../hb__1_81_8h.html#a08a0ee9cbc67f32d977b57cfa32dab5a',1,'hb_1.1.h']]],
   ['byte',['byte',['../nps__fdm__crrcsim_8c.html#a71809484a26cd96c6abe839a0a8a289d',1,'nps_fdm_crrcsim.c']]]
 ];
